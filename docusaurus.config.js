@@ -13,15 +13,15 @@ const config = {
   favicon: '/img/hashstudiosllclogo-5000x5000-NoBackground.png',
 
   // Set the production url of your site here
-  url: 'https://hashstudiosllc.github.io',
+  url: 'https://Hash-Studios-LLC.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/developmentdocumentation/',
+  baseUrl: '/DevelopmentDocumentation/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'hashstudiosllc', // Usually your GitHub org/user name.
-  projectName: 'developmentdocumentation', // Usually your repo name.
+  organizationName: 'Hash-Studios-LLC', // Usually your GitHub org/user name.
+  projectName: 'DevelopmentDocumentation', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Hash-Studios-LLC/DevelopmentDocumentation',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Hash-Studios-LLC/DevelopmentDocumentation',
         },
         theme: {
           customCss: './src/css/custom.css',
