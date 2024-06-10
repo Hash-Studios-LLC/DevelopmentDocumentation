@@ -93,5 +93,5 @@ For detailed instructions on setting up post processing, refer to the **[Post Pr
 
 By following these steps, you can successfully install ParGUI and provide an immersive, customizable experience for your virtual world.
 
-For more detailed information and resources, visit the **[Official Website](https://hashstudiosllc.com/pargui/instructions)** or watch the **[YouTube Tutorial](https://youtu.be/q-F4nQzk-_w)**.
+For more detailed information and resources, visit the **[Official Website](https://hashstudiosllc.com/pargui/instructions)** or watch the **[YouTube Tutorial](https://youtu.be/q-F4nQzk-_w)**. 2
 
