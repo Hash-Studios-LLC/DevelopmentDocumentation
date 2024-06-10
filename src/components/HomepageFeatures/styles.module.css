@@ -1,0 +1,27 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.featureImg {
+  width: 100%;
+  max-width: 200px; /* Adjust the max-width as needed */
+  height: auto;
+  margin-bottom: 1rem; /* Add space below the image */
+}
+
+.description {
+  margin-top: 1rem; /* Add space above the description */
+}
+
+/* Add space between the title and the image */
+.featureTitle {
+  margin-bottom: 1rem; /* Add space below the title */
+}

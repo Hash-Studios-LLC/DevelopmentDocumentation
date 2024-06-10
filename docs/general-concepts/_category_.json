@@ -1,0 +1,8 @@
+{
+  "label": "General Concepts",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Some general concepts that are useful to understand when working with our software."
+  }
+}
