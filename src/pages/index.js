@@ -15,7 +15,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           Hash Studios <br></br>Development Documentation
         </Heading>
-        <p className="hero__subtitle">Your one-stop torture shop for everything Hash Studios</p>
+        <p className="hero__subtitle">For all your development needs with Hash Studios</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
