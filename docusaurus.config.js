@@ -146,7 +146,7 @@ const config = {
       },
       metadata: [
         {name: 'description', content: 'For all your development needs with Hash Studios'},
-        {property: 'og:title', content: 'Hash Studios Development Documentation'},
+        {property: 'og:title', content: 'Docs'},
         {property: 'og:description', content: 'For all your development needs with Hash Studios'},
         {property: 'og:image', content: '/img/ImageThumbnail.png'},
         {property: 'og:url', content: 'https://Hash-Studios-LLC.github.io/DevelopmentDocumentation'},
