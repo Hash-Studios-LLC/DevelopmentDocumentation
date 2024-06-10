@@ -77,8 +77,9 @@ For detailed instructions on setting up post processing, refer to the **[Post Pr
 **5. Add ParGUI Prefab to Your World**
 
 1. Drag the ParGUI prefab into your world from the Project window.
-2. Set the respawn location as your spawn transform in the VRC Scene Descriptor from earlier.
-3. Set a main world light as the world's directional light. If you don't want to use a directional light, set it as a directional light that is disabled in the hierarchy (it still needs a reference of some sort to function).
+2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
+3. Set the respawn location as your spawn transform in the VRC Scene Descriptor from earlier.
+4. Set a main world light as the world's directional light. If you don't want to use a directional light, set it as a directional light that is disabled in the hierarchy (it still needs a reference of some sort to function).
 
 **6. Configure Toggles and Lights**
 

@@ -37,6 +37,11 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - Locate and select the downloaded prefab package.
    - Click `Import` to add the prefab to your project.
 
+**2. Add the Prefab to Your World**
+
+1. Drag the prefab into your world from the Project window.
+2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
+
 **2. Set Up Water Zones**
 
 1. Find a collider you want to use as a water zone and make it a trigger collider:

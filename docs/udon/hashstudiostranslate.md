@@ -52,7 +52,7 @@ You can learn how to set up your project beforehand at **[our project setup guid
 
 ## Installation Steps
 
-### 1. Download and Import the Prefab
+**1. Download and Import the Prefab**
 
 1. Download the Hash Studios Translate prefab from our website.
 2. Import the prefab into your Unity project:
@@ -60,50 +60,55 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - Locate and select the downloaded prefab package.
    - Click `Import` to add the prefab to your project.
 
-### 2. Open the Custom Editor Window
+**2. Add the Prefab to Your World**
+
+1. Drag the prefab into your world from the Project window.
+2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
+
+**2. Open the Custom Editor Window**
 
 1. Go to `Tools` > `HS Translate` > `Management Panel`.
 2. If you see a message that says you don't have the HS Translate prefab, click the button to automatically add the HS Translate prefab to your world.
    - *(Not recommended)* If you want a manual way of adding the prefab, simply go to the folder of the prefab and directly drop it in.
 
-### 3. Position the Prefab Menu
+**3. Position the Prefab Menu**
 
 1. Position the prefab menu to where you want it in your world.
 
-### 4. Check Required Scripts
+**4. Check Required Scripts**
 
 1. In the Management Panel, check that all the required scripts are visible in the `Relevant Scripts & Objects` section.
 
-### 5. Customize UI
+**5. Customize UI**
 
 1. Customize the prefab's UI color, text color, transparency, and foreground, background, and banner to whatever you want.
 2. To activate changes you made with the colors, click `Apply Changes` and either save the project, run it in the test mode, or run a VR test to update the changes in your project.
 
-### 6. Configure Languages
+**6. Configure Languages**
 
 1. In the `Control Prefab & Translation` section, modify the type, number, and sequence of languages in the `List of Languages` array.
 2. Remember the index of each language for future steps (e.g., English at index 0, Japanese at index 1).
 
-### 7. Set Multi-Lingual Font
+**7. Set Multi-Lingual Font**
 
 1. For a text to support multiple languages, it needs a specific font that includes characters for those languages. We provide a TMP NotoSans font that supports many languages like Japanese, Chinese (Simplified & Traditional), and Greek characters.
 2. This font is labeled as `NotoSans-Combined` in the Hash Studios Translate folder.
 3. Under `Set Multi-Lingual Font For Text`, you can add your own custom language font or use the default one we provided for you called `NotoSans-Regular` (for legacy old text) and `NotoSans-Combined` (for TMP Text).
 4. Click `Apply Changes`.
 
-### 8. Translation Statistics
+**8. Translation Statistics**
 
 1. Translation statistics show how much of your world has translation in it.
 2. You can open the `Translation Table` to see all the texts detected in your world and manually change them.
 3. For each text it detects, it will show the text object, text font, translation status, text display, and an ability to view it in the Inspector.
 
-### 9. Add Translations to Text
+**9. Add Translations to Text**
 
 1. To add translation to text, either find it in the translation table or manually go to it in the Unity hierarchy.
 2. Inspect the text object and add translated text to it by adding the HS Translate component.
 3. In the `Language Translation` array, set each element to match the index of the language you want (e.g., index 0 for English text, index 1 for Japanese text).
 
-### 10. Verify Translations
+**10. Verify Translations**
 
 1. Now that you have set the text to be translatable with our component, you can view in the translation table that it should say it is now translatable ("WILL BE TRANSLATED") in green.
 
