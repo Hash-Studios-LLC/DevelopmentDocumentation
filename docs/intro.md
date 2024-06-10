@@ -11,31 +11,31 @@ Welcome to Hash Studios! We specialize in providing top-notch prefabs for VRChat
 
 ### Getting Started
 
-Get started by **[exploring our prefabs](/DevelopmentDocumentation/docs/intro/category/udon/)** and reviewing the necessary setups.
+Get started by **[exploring our prefabs](/DevelopmentDocumentation/docs/category/udon/)** and reviewing the necessary setups.
 
 <br />
 
 ### What you'll need
 
-You'll need to install some requirements, which you can find in the **[project setup](/DevelopmentDocumentation/docs/intro/category/udon/)** section.
+You'll need to install some requirements, which you can find in the **[project setup](/DevelopmentDocumentation/docs/category/udon/)** section.
 
 <br />
 
 ### Prefab Setup
 
-To set up our prefabs, follow the **[detailed instructions](/DevelopmentDocumentation/docs/intro/general-concepts/settingupudon/)** provided in this documentation. We’ve put a lot of effort into making it comprehensive and helpful.
+To set up our prefabs, follow the **[detailed instructions](/DevelopmentDocumentation/docs/general-concepts/settingupudon/)** provided in this documentation. We’ve put a lot of effort into making it comprehensive and helpful.
 
 <br />
 
 ### General Concepts
 
-While we strive to keep everything up to date, please note that we do not control all aspects of Unity or VRChat Creator Companion (VRCCC). Some information may become outdated, but you can always refer to the **[General Concepts](/DevelopmentDocumentation/docs/intro/category/general-concepts/)** section for the basics of Unity.
+While we strive to keep everything up to date, please note that we do not control all aspects of Unity or VRChat Creator Companion (VRCCC). Some information may become outdated, but you can always refer to the **[General Concepts](/DevelopmentDocumentation/docs/category/general-concepts/)** section for the basics of Unity.
 
 <br />
 
 ### Troubleshooting
 
-If you encounter issues, first check the **[Troubleshooting](/DevelopmentDocumentation/docs/intro/category/udon/)** section for possible solutions. 
+If you encounter issues, first check the **[Troubleshooting](/DevelopmentDocumentation/docs/category/udon/)** section for possible solutions. 
 
 Also, look inside the current bug reports in our **[Discord server](https://discord.gg/78EnuECcY4)**. 
 
