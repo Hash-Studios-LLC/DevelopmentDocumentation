@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Hash Studios Dev Docs',
+  title: 'Hash Studios Development Documentation',
   tagline: 'For Everything Hash Studios',
   favicon: '/img/hashstudiosllclogo-5000x5000-NoBackground.png',
 

@@ -32,7 +32,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hash Studios Development Documentation`}
+      title={`Main Page`}
       description="For all your development needs with Hash Studios">
       <HomepageHeader />
       <main>
