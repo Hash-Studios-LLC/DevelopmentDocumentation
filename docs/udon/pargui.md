@@ -5,17 +5,17 @@ sidebar_position: 7
 
 # Installing ParGUI
 
-ParGUI is the ultimate game-changer for your local-world experiences, allowing users to customize their in-game experiences like never before. This guide will walk you through the installation process for ParGUI.
-
-With its user-friendly interface, you can effortlessly modify the skybox, sky color, overall color, bloom, and darkness in your local virtual world with just a few clicks.
-
-ParGUI also features a preset button section, where you can easily switch between different scenarios to create your perfect virtual experience. Additionally, ParGUI offers a player settings menu, enabling you to adjust your player's gravity, jump height, running speed, walking speed, and strafe speed for the ultimate playing experience. Plus, if you want to join your friends in their world, ParGUI includes a teleportation feature that allows you to instantly transport to any of the first 12 players who have joined the world.
-
 :::warning
 
 **Version:** This guide is for Unity 2022.3.6f1. The steps may be different in future versions of Unity.
 
 :::
+
+ParGUI is the ultimate game-changer for your local-world experiences, allowing users to customize their in-game experiences like never before. This guide will walk you through the installation process for ParGUI.
+
+With its user-friendly interface, you can effortlessly modify the skybox, sky color, overall color, bloom, and darkness in your local virtual world with just a few clicks.
+
+ParGUI also features a preset button section, where you can easily switch between different scenarios to create your perfect virtual experience. Additionally, ParGUI offers a player settings menu, enabling you to adjust your player's gravity, jump height, running speed, walking speed, and strafe speed for the ultimate playing experience. Plus, if you want to join your friends in their world, ParGUI includes a teleportation feature that allows you to instantly transport to any of the first 12 players who have joined the world.
 
 <br/>
 

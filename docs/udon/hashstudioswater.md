@@ -45,7 +45,7 @@ You can learn how to set up your project beforehand at **[our project setup guid
 **2. Set Up Water Zones**
 
 :::tip
-For more detailed information on configuring Trigger Boxes, visit our **[Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/)**.
+For more detailed information on configuring Trigger Boxes, visit our [Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/).
 :::
 
 1. Find a collider you want to use as a water zone and make it a trigger collider:

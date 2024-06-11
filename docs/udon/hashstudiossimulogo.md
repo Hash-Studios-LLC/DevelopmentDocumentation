@@ -71,7 +71,7 @@ Hash Studios SimuLogo comes in two versions:
 **5. Configure the Trigger Collider (if using the collider version)**
 
 :::tip
-For more detailed information on configuring Trigger Boxes, visit our **[Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/)**.
+For more detailed information on configuring Trigger Boxes, visit our [Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/).
 :::
 
 1. Go to the `Trigger Box Collider` child in the prefab.
