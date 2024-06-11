@@ -33,7 +33,7 @@ Experience Hash Studios World Disclaimer for yourself here: **[VRChat Showcase W
 
 ## Requirements
 
-You can learn how to set up your project beforehand at **[our project setup guide](/DevelopmentDocumentation/docs/general-concepts/settingupudon)**.
+You can learn how to set up your project beforehand at **[our project setup guide](DevelopmentDocumentation/docs/general-concepts/settingupudon)**.
 
 <br/>
 
@@ -63,7 +63,7 @@ Inside the `World Information` section, you can set information such as:
 - `World Name` - the name of the world that will appear on your World Welcome Page. The length of your name will automatically adjust on the welcome page.
 - `Welcome Message` - the message that will appear on the World Welcome Page, which will also adjust automatically for length.
 - `World Rules` - an array of strings for the list of rules that will display on the World Rules Disclaimer Page. They are automatically numbered.
-- `World Logo` - the logo that will be displayed on the World Welcome Page. Make sure to refer to the **[Image to Sprite Conversion Guide](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/)**.
+- `World Logo` - the logo that will be displayed on the World Welcome Page. Make sure to refer to the **[Image to Sprite Conversion Guide](DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/)**.
 
 **5. Enable/Disable Disclaimer Pages**
 
