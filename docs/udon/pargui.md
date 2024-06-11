@@ -72,7 +72,7 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - In the Inspector window, click `Add Component` and search for `Post-process Layer`.
    - Set the layer to `Default` or `Everything`.
 
-For detailed instructions on setting up post processing, refer to the **[Post Processing Guide](/docs/general-concepts/postprocessing)**.
+For detailed instructions on setting up post processing, refer to the **[Post Processing Guide](/DevelopmentDocumentation/docs/general-concepts/postprocessing)**.
 
 **5. Add ParGUI Prefab to Your World**
 

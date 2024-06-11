@@ -34,7 +34,7 @@ Experience Hash Studios AdFlux for yourself here: **[VRChat Showcase World](http
 
 ## Requirements
 
-You can learn how to set up your project beforehand at **[our project setup guide](/docs/general-concepts/settingupudon)**.
+You can learn how to set up your project beforehand at **[our project setup guide](/DevelopmentDocumentation/docs/general-concepts/settingupudon)**.
 
 <br/>
 
@@ -55,7 +55,7 @@ You can learn how to set up your project beforehand at **[our project setup guid
 
 **3. Set Up Posters and URLs**
 
-1. Under `Posters to Display`, put the posters you want to display. Please look at the [Changing Images to Sprites](/docs/general-concepts/sprites) section of the documentation for more information if you can't add your posters.
+1. Under `Posters to Display`, put the posters you want to display. Please look at the [Changing Images to Sprites](/DevelopmentDocumentation/docs/general-concepts/sprites) section of the documentation for more information if you can't add your posters.
 2. Under `URL Per Poster`, enter the URLs you want to display based on the index:
    - The first poster at index 0 under `Posters to Display` will show the link at index 0 of the `URL Per Poster` array.
 
