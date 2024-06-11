@@ -5,8 +5,6 @@ sidebar_position: 1
 
 # Installing Hash Studios Water
 
-Hash Studios Water is a developer tool that makes it easy for world creators to mimic the vision of being underwater. This guide will walk you through the installation process for Hash Studios Water.
-
 :::warning
 
 **Version:** This guide is for Unity 2022.3.6f1. The steps may be different in future versions of Unity.
@@ -18,6 +16,8 @@ Hash Studios Water is a developer tool that makes it easy for world creators to 
 **Important:** This prefab is only compatible with PC or PC VR and does not work on Android / Quest platforms.
 
 :::
+
+Hash Studios Water is a developer tool that makes it easy for world creators to mimic the vision of being underwater. This guide will walk you through the installation process for Hash Studios Water.
 
 <br/>
 
@@ -43,6 +43,10 @@ You can learn how to set up your project beforehand at **[our project setup guid
 2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
 
 **2. Set Up Water Zones**
+
+:::tip
+For more detailed information on configuring Trigger Boxes, visit our **[Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/)**.
+:::
 
 1. Find a collider you want to use as a water zone and make it a trigger collider:
    - Select the GameObject with the collider in the Hierarchy window.

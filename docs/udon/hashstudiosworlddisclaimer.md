@@ -3,13 +3,13 @@ title: Hash Studios World Disclaimer
 sidebar_position: 10
 ---
 
-# Hash Studios World Disclaimer
-
-Hash Studios World Disclaimer is a dynamic Unity Udon prefab designed for virtual world creators and event hosts. It offers a seamless way to display tailored disclaimers or important messages to players upon entry. With customizable features like head tracking, movement control, collider management, avatar-based sizes, in-game activation, and menu design, it ensures an immersive, yet informative experience tailored to each world's unique needs.
+# Installing Hash Studios World Disclaimer
 
 :::warning
 **Version:** This guide is for Unity 2022.3.6f1. The steps may be different in future versions of Unity.
 :::
+
+Hash Studios World Disclaimer is a dynamic Unity Udon prefab designed for virtual world creators and event hosts. It offers a seamless way to display tailored disclaimers or important messages to players upon entry. With customizable features like head tracking, movement control, collider management, avatar-based sizes, in-game activation, and menu design, it ensures an immersive, yet informative experience tailored to each world's unique needs.
 
 <br/>
 

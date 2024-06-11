@@ -5,13 +5,13 @@ sidebar_position: 6
 
 # Installing Hash Studios AdFlux
 
-Crafted by Hash Studios for UdonSharp worlds, this Unity Poster Prefab encapsulates our dedication to innovation, supreme quality, and fluid user experiences. This guide will walk you through the installation process for Hash Studios AdFlux.
-
 :::warning
 
 **Version:** This guide is for Unity 2022.3.6f1. The steps may be different in future versions of Unity.
 
 :::
+
+Crafted by Hash Studios for UdonSharp worlds, this Unity Poster Prefab encapsulates our dedication to innovation, supreme quality, and fluid user experiences. This guide will walk you through the installation process for Hash Studios AdFlux.
 
 <br/>
 

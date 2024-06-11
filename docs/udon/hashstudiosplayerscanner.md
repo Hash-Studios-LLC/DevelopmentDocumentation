@@ -5,15 +5,15 @@ sidebar_position: 10
 
 # Installing Hash Studios Player Scanner
 
-Hash Studios' Player Scanner is a UdonSharp Unity Prefab tool detecting player presence in specified areas and showcasing it on a UI menu.
-
 :::warning
 **Version:** This guide is for Unity 2022.3.6f1. The steps may be different in future versions of Unity.
 :::
 
 :::danger
-**Important Notice:** Newer versions of the prefab have fixed issues related to the prefab not being local. Older versions of the prefab are global and broken, so please install the updated version.
+There seems to be an error of not being able to view more than 13 players in the list. We are looking into it, but if you still see this issue, please report it to us so we can keep note and remember this detail.
 :::
+
+Hash Studios' Player Scanner is a UdonSharp Unity Prefab tool detecting player presence in specified areas and showcasing it on a UI menu.
 
 <br/>
 

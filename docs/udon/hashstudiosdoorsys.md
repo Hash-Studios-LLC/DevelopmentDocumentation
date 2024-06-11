@@ -5,11 +5,11 @@ sidebar_position: 10
 
 # Installing Hash Studios DoorSys
 
-Hash Studios DoorSys is a sleek, user-friendly UdonSharp prefab that offers creators the ability to set custom passcodes and create whitelists, ensuring your virtual reality worlds remain secure and accessible to those you choose.
-
 :::warning
 **Version:** This guide is for Unity 2022.3.6f1. The steps may be different in future versions of Unity.
 :::
+
+Hash Studios DoorSys is a sleek, user-friendly UdonSharp prefab that offers creators the ability to set custom passcodes and create whitelists, ensuring your virtual reality worlds remain secure and accessible to those you choose.
 
 <br/>
 

@@ -5,19 +5,19 @@ sidebar_position: 10
 
 # Installing Hash Studios Portal Picker
 
-Meet Hash Studios Portal Picker, a Unity UdonSharp Prefab. This tool streamlines virtual navigation by allowing users to select worlds, view key details, and create portals for easy access. A significant advancement for world creation, it consolidates world information and enhances interconnectivity.
-
 :::warning
 **Version:** This guide is for Unity 2022.3.6f1. The steps may be different in future versions of Unity.
 :::
 
 :::danger
-There seems to be an error of not being able to add more than 13 worlds. We are looking into it, but if you see this issue, please report it to us so we can keep note and remember this detail.
+There seems to be an error of not being able to add more than 13 worlds. We are looking into it, but if you still see this issue, please report it to us so we can keep note and remember this detail.
 :::
 
 :::tip
 **Important:** You cannot test this prefab in Unity and it must be tested in a VRChat Scene due to limitations of blueprint IDs and Udon.
 :::
+
+Meet Hash Studios Portal Picker, a Unity UdonSharp Prefab. This tool streamlines virtual navigation by allowing users to select worlds, view key details, and create portals for easy access. A significant advancement for world creation, it consolidates world information and enhances interconnectivity.
 
 <br/>
 

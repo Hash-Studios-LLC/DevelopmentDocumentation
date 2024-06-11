@@ -5,11 +5,11 @@ sidebar_position: 10
 
 # Installing Hash Studios Season Changer
 
-Hash Studios' Season Changer is a Unity Prefab designed for UdonSharp worlds. This versatile tool lets you schedule automatic changes to your virtual environments based on seasons or holidays. Just select the objects you want to toggle on or off and set the dates. As the year progresses, your world will dynamically update, bringing a new level of immersion and realism to your creations.
-
 :::warning
 **Version:** This guide is for Unity 2022.3.6f1. The steps may be different in future versions of Unity.
 :::
+
+Hash Studios' Season Changer is a Unity Prefab designed for UdonSharp worlds. This versatile tool lets you schedule automatic changes to your virtual environments based on seasons or holidays. Just select the objects you want to toggle on or off and set the dates. As the year progresses, your world will dynamically update, bringing a new level of immersion and realism to your creations.
 
 <br/>
 

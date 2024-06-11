@@ -81,7 +81,7 @@ To reduce the file size of your sprite, you can change its resolution. Here’s 
 4. Set the `Compression` property to `Normal Quality` or `Low Quality` to further reduce the file size.
 5. Click `Apply` to save the changes.
 
-<br/>
+<br/><br/>
 
 By following these steps, you can efficiently add images to your prefabs and use them as sprites in Unity UI, ensuring that your project remains optimized and user-friendly.
 

@@ -5,11 +5,11 @@ sidebar_position: 10
 
 # Installing Hash Studios SimuLogo
 
-Hash Studios SimuLogo is an UdonSharp Unity Prefab that presents your world logo before you, either a few seconds after your initial spawn, or when you step into a trigger collider. Hash Studios SimuLogo is a Unity prefab tool that detects a player's spawn or entry into a certain area and promptly displays the world logo.
-
 :::warning
 **Version:** This guide is for Unity 2022.3.6f1. The steps may be different in future versions of Unity.
 :::
+
+Hash Studios SimuLogo is an UdonSharp Unity Prefab that presents your world logo before you, either a few seconds after your initial spawn, or when you step into a trigger collider. Hash Studios SimuLogo is a Unity prefab tool that detects a player's spawn or entry into a certain area and promptly displays the world logo.
 
 <br/>
 
@@ -69,6 +69,10 @@ Hash Studios SimuLogo comes in two versions:
 3. Set the `Display Time` for how long the logo will display after it appears. Recommended: 5 seconds.
 
 **5. Configure the Trigger Collider (if using the collider version)**
+
+:::tip
+For more detailed information on configuring Trigger Boxes, visit our **[Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/)**.
+:::
 
 1. Go to the `Trigger Box Collider` child in the prefab.
 2. Open the Inspector and move it around in the `Transform` component or edit the collider in the `Box Collider` component after pressing the `Edit Collider` button.

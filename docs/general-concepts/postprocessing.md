@@ -5,13 +5,13 @@ sidebar_position: 3
 
 # Setting Up Post Processing in Unity
 
-Post processing is an essential tool in Unity that enhances the visual quality of your scenes by applying effects such as bloom, color grading, and depth of field. This guide will walk you through the process of setting up post processing and adding it to your camera.
-
 :::warning
 
 **Important:** This guide is for Unity 2022.3.6f1. The steps may be different in future versions of Unity.
 
 :::
+
+Post processing is an essential tool in Unity that enhances the visual quality of your scenes by applying effects such as bloom, color grading, and depth of field. This guide will walk you through the process of setting up post processing and adding it to your camera.
 
 <br/>
 

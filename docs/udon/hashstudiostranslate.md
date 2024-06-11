@@ -5,10 +5,6 @@ sidebar_position: 8
 
 # Installing Hash Studios Translate
 
-Hash Studios Translate is a powerful and user-friendly translation tool, specifically designed for developers to effortlessly integrate multilingual support into their applications and projects. This guide will walk you through the installation process for Hash Studios Translate.
-
-Elevate your application with Hash Studios Translate and provide a truly immersive multilingual experience for your users. Enhance accessibility, broaden your audience, and streamline the translation process with the user-friendly, customizable, and powerful HS Translate.
-
 :::warning
 
 **Version:** This guide is for Unity 2022.3.6f1. The steps may be different in future versions of Unity.
@@ -20,6 +16,10 @@ Elevate your application with Hash Studios Translate and provide a truly immersi
 **Important:** Hash Studios Translate is NOT a translator. It is a tool that lets users add their OWN translations to texts in Unity. If you want to translate your text from one language to another, you must provide both translations of the text.
 
 :::
+
+Hash Studios Translate is a powerful and user-friendly translation tool, specifically designed for developers to effortlessly integrate multilingual support into their applications and projects. This guide will walk you through the installation process for Hash Studios Translate.
+
+Elevate your application with Hash Studios Translate and provide a truly immersive multilingual experience for your users. Enhance accessibility, broaden your audience, and streamline the translation process with the user-friendly, customizable, and powerful HS Translate.
 
 <br/>
 
