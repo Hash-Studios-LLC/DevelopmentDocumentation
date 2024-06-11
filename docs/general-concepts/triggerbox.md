@@ -12,7 +12,7 @@ sidebar_position: 11
 :::
 
 :::tip
-Many of our prefabs, including the `Hash Studios Information Board`, use colliders and trigger boxes for detecting interactions. Understanding how to add, configure, and resize trigger boxes is essential for making the most of these prefabs. For more details, see the [Hash Studios Information Board](/docs/udon/hashstudiosinformationboard) documentation.
+Many of our prefabs, including the `Hash Studios Information Board`, use colliders and trigger boxes for detecting interactions. Understanding how to add, configure, and resize trigger boxes is essential for making the most of these prefabs. For more details, see the [Hash Studios Information Board](https://hashstudiosllc.com/hashstudiosinformationboard) documentation.
 :::
 
 :::note
