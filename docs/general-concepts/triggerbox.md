@@ -74,7 +74,7 @@ A trigger box is a special type of collider that detects when another object ent
 
 We use colliders and trigger boxes in our prefabs to detect interactions. For example, our `Hash Studios Information Board` prefab uses a trigger box to display information when a player enters a specific area. 
 
-You can find more details in the **[Hash Studios Information Board](/TestDocumentation/docs/udon/hashstudiosinformationboard)** documentation.
+You can find more details in the **[Hash Studios Information Board](/docs/udon/hashstudiosinformationboard)** documentation.
 
 <br/>
 
