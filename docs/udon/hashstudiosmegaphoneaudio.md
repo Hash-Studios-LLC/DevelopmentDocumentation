@@ -75,6 +75,10 @@ You can learn how to set up your project beforehand at **[our project setup guid
 
 **6. Customize the Megaphone Model**
 
+:::tip
+For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/).
+:::
+
 1. Open the `Model Customization` tab.
 2. Customize the megaphone appearance:
    - `Type of Object Mesh`: Choose between `Current Megaphone Mesh` (default) or `Custom Mesh (Not Recommended)`.
@@ -86,7 +90,7 @@ You can learn how to set up your project beforehand at **[our project setup guid
      - `Mesh Transform`: Scale or change the position of the mesh.
 
 :::tip
-For more detailed information on configuring Meshes & Materials, visit our [Changing Object Meshes and Materials Guide](/DevelopmentDocumentation/docs/general-concepts/objectmeshesandmaterials/).
+For more detailed information on configuring meshes & materials, visit our [Changing Object Meshes and Materials Guide](/DevelopmentDocumentation/docs/general-concepts/objectmeshesandmaterials/).
 :::
 
 If you choose to manually change the megaphone object, ensure you select `Custom Mesh (Not Recommended)` first, then customize the mesh object as a child of the prefab and adjust materials/mesh in the Inspector.

@@ -62,7 +62,11 @@ For more detailed information on configuring Trigger Boxes, visit our [Trigger &
 
 **4. Set Up Post Processing**
 
-1. Set up a post processing layer on the camera and set it to default. For detailed instructions, refer to the [Post Processing Guide](/docs/general-concepts/postprocessing).
+:::tip
+For more detailed information on configuring Post Processing, visit our [Post Processing Guide](/DevelopmentDocumentation/docs/general-concepts/postprocessing/).
+:::
+
+1. Set up a `post processing layer` component on the main camera and set it to default.
 
 **5. Test the Underwater Effect**
 

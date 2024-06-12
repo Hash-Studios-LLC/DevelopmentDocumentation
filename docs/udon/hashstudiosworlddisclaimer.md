@@ -59,6 +59,10 @@ You can learn how to set up your project beforehand at **[our project setup guid
 
 **4. Configure World Information**
 
+:::tip
+For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/DevelopmentDocumentation/docs/general-concepts/postprocessing/).
+:::
+
 Inside the `World Information` section, you can set information such as:
 - `World Name` - the name of the world that will appear on your World Welcome Page. The length of your name will automatically adjust on the welcome page.
 - `Welcome Message` - the message that will appear on the World Welcome Page, which will also adjust automatically for length.

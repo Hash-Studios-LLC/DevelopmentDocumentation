@@ -62,7 +62,7 @@ You can learn how to set up your project beforehand at **[our project setup guid
 ### Setting Up Trigger Box
 
 :::tip
-For more detailed information on configuring Trigger Boxes, visit our [Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/).
+For more detailed information on configuring trigger boxes, visit our [Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/).
 :::
 
 1. Locate the parent object of the prefab and go to the child called `Trigger Box`.

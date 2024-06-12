@@ -64,6 +64,10 @@ Hash Studios SimuLogo comes in two versions:
 
 **4. Customize the Logo**
 
+:::tip
+For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/).
+:::
+
 1. Customize the logo you want to be displayed. Ensure it is a sprite as shown in our **[Image to Sprite Conversion Guide](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/)**.
 2. Set the `Time to Display` after the player enters a collider or joins. Recommended: 1-2 seconds.
 3. Set the `Display Time` for how long the logo will display after it appears. Recommended: 5 seconds.
@@ -71,7 +75,7 @@ Hash Studios SimuLogo comes in two versions:
 **5. Configure the Trigger Collider (if using the collider version)**
 
 :::tip
-For more detailed information on configuring Trigger Boxes, visit our [Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/).
+For more detailed information on configuring trigger boxes, visit our [Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/).
 :::
 
 1. Go to the `Trigger Box Collider` child in the prefab.
