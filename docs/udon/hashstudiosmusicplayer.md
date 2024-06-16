@@ -68,15 +68,16 @@ You can learn how to set up your project beforehand at **[our project setup guid
 
 **3. Edit the Music Playlist**
 
-:::tip
-For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/).
-:::
-
 In the `Music Playlist` section, you can view all the songs you wish to display on the UI in your world:
    - `Element Index`: The index of the song. Starts at 0. Not too important unless it is somehow out of order.
    - `Song Name`: The name you want to display for the song when it's playing.
    - `Artist`: The artist name you want to display for the song when it's playing.
    - `Image to Display`: The image you want to display for the song when it's playing (looks like an area to put the album cover) (requires the image to be a sprite).
+   
+      :::tip
+      For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/).
+      :::
+
    - `Audio Clip (Song)`: The song to play when the song appears.
    - `Song Color`: The color theme to display when the song shows up.
 

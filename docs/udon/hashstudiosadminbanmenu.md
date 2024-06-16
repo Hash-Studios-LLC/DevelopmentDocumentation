@@ -52,6 +52,38 @@ You can learn how to set up your project beforehand at **[our project setup guid
 
 <br/>
 
+## How to Use
+
+Hash Studios Admin Ban Menu allows you to interact with players based on their roles. Only admins have access to this menu, ensuring secure management.
+
+1. **Viewing Player Information**
+   - Click on a player to view their avatar and rank status (admin, player, banned, etc.). Avatars of different sizes are supported, though some may not display perfectly (e.g., animal avatars).
+
+<br/>
+
+2. **Viewing a Player's Point of View (POV)**
+   - Click "View POV" to see from a selected player's perspective.
+
+<br/>
+
+3. **Teleportation Options**
+   - **Teleport To**: Click "Teleport To" to move to a player's location, useful for getting their attention.
+   - **Teleport Here**: Click "Teleport Here" to bring the selected player to your location.
+
+<br/>
+
+4. **Banning and Unbanning Players**
+   - **Ban Player**: Press "Ban Player" to send the player to a specified part of the map. They will be teleported to the ban location and removed from the main area. If they try to respawn, they will be sent back to the ban location.
+   - **Unban Player**: Press "Unban Player" to return a banned player to the normal respawn location. Unbanned or non-banned players will respawn at the normal respawn area.
+
+<br/>
+
+5. **Managing Player Movements**
+   - **Mobilize**: Press "Mobilize" to allow the player to move.
+   - **Immobilize**: Press "Immobilize" to prevent the player from moving, useful for managing situations without distractions.
+
+<br/><br/>
+
 ## Installation Steps
 
 **1. Download and Import the Prefab**
@@ -78,37 +110,61 @@ You can learn how to set up your project beforehand at **[our project setup guid
 
 <br/>
 
-**4. Player Whitelist**
+**4. Edit Player Whitelist**
 
-1. Specify which players are admins by adding their usernames to the `Player Whitelist`. Admins are the only ones who can see the prefab and manage players.
+The `Player Whitelist` section allows you to specify which players are admins. Only players added to this list will have access to the admin menu and its management features.
 
-<br/>
-
-**5. General Settings**
-
-1. Define the `Respawn Location`, where players are teleported when respawned.
-:::warning
-If this is not your spawn location in your world, the prefab will not function properly.
-:::
-2. Define the `Teleport Location`, where banned players are teleported.
-:::warning
-Make sure it is in an actual room and not an area that would crash the user or go against VRChat's terms.
-:::
-3. Configure other general settings like `Make Instance Master Admin`, `Allow TP Here for Admins`, `Allow Respawn for Admins`, and `Allow Immobilization for Admins`.
+1. In the `Player Whitelist` section, add the usernames of the players you want to grant admin rights to.
 
 <br/>
 
-**6. Customization**
+**5. Edit General Settings**
+
+The `General Settings` section contains options to configure the basic functionality and behavior of the admin menu.
+
+- `Respawn Location`, where players are teleported when respawned.
+   :::warning
+   If this is not your spawn location in your world, the prefab will not function properly.
+   :::
+
+- `Teleport Location`, where banned players are teleported.
+   :::warning
+   Make sure it is in an actual room and not an area that would crash the user or go against VRChat's terms.
+   :::
+
+- `Make Instance Master Admin`: This toggle adds the instance master to the whitelist, granting them admin rights when the world starts. 
+   - Default: on
+
+- `Allow TP Here for Admins`: This toggle enables teleportation between admins for other admins. 
+   - Default: off
+
+- `Allow Respawn for Admins`: This toggle allows other admins to respawn one another if needed. 
+   - Default: off
+
+- `Allow Immobilization for Admins`: This toggle allows admins to immobilize one another if needed. 
+   - Default: off
+
+<br/>
+
+**6. Edit Color Customization**
 
 1. Customize the colors for each role. There are four color sets available for three roles: admin, banned player, normal player, as well as a color for selected players.
-   - `Default Player Button Background` (default: grey)
-   - `Default Player Button Text` (white)
-   - `Selected Player Button Background`
-   - `Selected Player Button Text`
-   - `Admin Player Button Background`
-   - `Admin Player Button Text`
-   - `Banned Player Button Background`
-   - `Banned Player Button Text`
+   - `Default Player Button Background`: 
+      - Default: grey
+   - `Default Player Button Text`: 
+      - Default: white
+   - `Selected Player Button Background`: 
+      - Default: light cyan
+   - `Selected Player Button Text`: 
+      - Default: black
+   - `Admin Player Button Background`: 
+      - Default: dark blue
+   - `Admin Player Button Text`: 
+      - Default: white
+   - `Banned Player Button Background`: 
+      - Default: red
+   - `Banned Player Button Text`: 
+      - Default: white
 
 <br/><br/>
 

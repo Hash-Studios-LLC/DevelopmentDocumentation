@@ -68,6 +68,10 @@ In the `General Settings` section, you can configure the following:
 - **Name of Area**: This is the name that will appear on the menu when set up. This helps players identify what this area is and who is in what area.
 - **Show Collider Visual**: This button allows you to edit the collider settings such as its scale within our inspector so you can change how big the player detection size is. For a guide on how to edit colliders, please view it [here](/docs/general-concepts/triggerbox/).
 
+   :::tip
+   For more detailed information on configuring trigger boxes, visit our [Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/).
+   :::
+
 <br/>
 
 **5. Edit Transform Settings**
