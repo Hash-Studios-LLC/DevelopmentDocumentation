@@ -1,6 +1,6 @@
 ---
 title: Hash Studios AdFlux
-sidebar_position: 6
+sidebar_position: 10
 ---
 
 # Installing Hash Studios AdFlux
@@ -48,10 +48,14 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - Locate and select the downloaded prefab package.
    - Click `Import` to add the prefab to your project.
 
+<br/>
+
 **2. Add the Prefab to Your World**
 
 1. Drag the AdFlux prefab into your world from the Project window.
 2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
+
+<br/>
 
 **3. Set Up Posters and URLs**
 
@@ -62,6 +66,8 @@ For more detailed information on configuring images to sprites for the prefab, v
 1. Under `Posters to Display`, put the posters you want to display. Please look at the **[Changing Images to Sprites](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/)** section of the documentation for more information if you can't add your posters.
 2. Under `URL Per Poster`, enter the URLs you want to display based on the index:
    - The first poster at index 0 under `Posters to Display` will show the link at index 0 of the `URL Per Poster` array.
+
+<br/>
 
 **4. Set Up Materials for Posters**
 
@@ -74,6 +80,8 @@ For more detailed information on configuring images to sprites for the prefab, v
 1. Go to the prefab files, navigate to `Materials`, and select `Poster Material`.
 2. Duplicate the material by pressing `Ctrl + D` (or `Cmd + D` on macOS).
 3. Add the new duplicated material to the material slot under the `Materials for the Posters` section of the Inspector.
+
+<br/>
 
 **5. Customize Display Duration**
 

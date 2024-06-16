@@ -49,17 +49,30 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - Locate and select the downloaded prefab package.
    - Click `Import` to add the prefab to your project.
 
+<br/>
+
 **2. Add the Prefab to Your World**
 
 1. Drag Hash Studios Player Scanner into your world from the Project window.
 2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
+
+<br/>
 
 **3. Configure the Prefab**
 
 1. Select Hash Studios Player Scanner in your Hierarchy.
 2. In the Inspector window, you will see the configuration options for Hash Studios Player Scanner.
 
+<br/>
+
+**4. Edit Settings**
+
+:::tip
+For more detailed information on configuring trigger boxes, visit our [Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/).
+:::
+
    - Change `Name of Area` to the title you want to give for the area you want to display on the menu.
+
    - Go to the `BoxCollider` child of the prefab and adjust the box collider position in the `Transform Component` or change its size in the `Box Collider` component by pressing the edit collider button.
    - Ensure `isTrigger` in the box collider is enabled.
 

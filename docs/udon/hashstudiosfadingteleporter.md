@@ -45,10 +45,14 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - Locate and select the downloaded prefab package.
    - Click `Import` to add the prefab to your project.
 
+<br/>
+
 **2. Add the Prefab to Your World**
 
 1. Drag `Hash Studios Fading Teleporter` into your world from the Project window.
 2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
+
+<br/>
 
 **3. Select Hash Studios Fading Teleporter**
 
@@ -69,9 +73,13 @@ For more detailed information on configuring trigger boxes, visit our [Trigger &
 2. Adjust the position in the `Transform` component and edit the scale of the collider in the `Box Collider` component after pressing the `Edit Collider` button.
 3. Ensure `isTrigger` is enabled.
 
+<br/>
+
 ### One-Way Version
 
 1. Rotate the `Location to Teleport To` object as the orientation of that object will determine the direction the player faces upon teleporting.
+
+<br/>
 
 ### Two-Way Version
 

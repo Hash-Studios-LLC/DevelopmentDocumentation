@@ -55,15 +55,21 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - Find and select the downloaded prefab package.
    - Click `Import` to add the prefab to your project.
 
+<br/>
+
 **2. Add the Prefab to Your World**
 
 1. Drag `Hash Studios Information Board` from the Project window into your scene.
 2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
 
+<br/>
+
 **3. Set Up the Information Board**
 
 1. Select `Hash Studios Information Board` in your Hierarchy.
 2. In the Inspector window, you will see options to configure the Information Board.
+
+<br/>
 
 **4. Adjust the Trigger Box**
 
@@ -73,6 +79,8 @@ For more detailed information on configuring trigger boxes, visit our [Trigger &
 
 1. Find the child object called `TriggerBox`.
 2. Move it around using the `Transform` component or resize it with the `Box Collider` component. Press the `Edit Collider` button to resize.
+
+<br/>
 
 **5. Configure Display Settings**
 

@@ -46,15 +46,21 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - Locate and select the downloaded prefab package.
    - Click `Import` to add the prefab to your project.
 
+<br/>
+
 **2. Add the Prefab to Your World**
 
 1. Drag Hash Studios DoorSys into your world from the Project window.
 2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
 
+<br/>
+
 **3. Select Hash Studios DoorSys**
 
 1. Select Hash Studios DoorSys in your Hierarchy.
 2. In the Inspector window, you will see the configuration options for Hash Studios DoorSys.
+
+<br/>
 
 **4. Configure the Prefab**
 

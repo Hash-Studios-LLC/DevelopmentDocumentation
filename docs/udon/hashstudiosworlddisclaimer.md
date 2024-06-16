@@ -47,15 +47,21 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - Locate and select the downloaded prefab package.
    - Click `Import` to add the prefab to your project.
 
+<br/>
+
 **2. Add the Prefab to Your World**
 
 1. Drag Hash Studios World Disclaimer into your world from the Project window.
 2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
 
+<br/>
+
 **3. Select Hash Studios World Disclaimer**
 
 1. Select Hash Studios World Disclaimer in your Hierarchy.
 2. In the Inspector window, you will see the configuration options for Hash Studios World Disclaimer.
+
+<br/>
 
 **4. Configure World Information**
 
@@ -69,6 +75,8 @@ Inside the `World Information` section, you can set information such as:
 - `World Rules` - an array of strings for the list of rules that will display on the World Rules Disclaimer Page. They are automatically numbered.
 - `World Logo` - the logo that will be displayed on the World Welcome Page. Make sure to refer to the **[Image to Sprite Conversion Guide](/docs/general-concepts/unityspriteconversion/)**.
 
+<br/>
+
 **5. Enable/Disable Disclaimer Pages**
 
 In the `Enable / Disable Disclaimer Pages` section, you can enable or disable various pages or disclaimers for your world or event. Choose the options that best suit your needs:
@@ -77,6 +85,8 @@ In the `Enable / Disable Disclaimer Pages` section, you can enable or disable va
 - Flashing Lights Disclaimer Page
 - Adult Only Disclaimer Page
 - Avatar Performance Disclaimer Page
+
+<br/>
 
 **6. Configure Advanced Settings**
 

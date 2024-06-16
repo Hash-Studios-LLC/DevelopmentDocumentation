@@ -1,6 +1,6 @@
 ---
 title: Hash Studios Water
-sidebar_position: 1
+sidebar_position: 10
 ---
 
 # Installing Hash Studios Water

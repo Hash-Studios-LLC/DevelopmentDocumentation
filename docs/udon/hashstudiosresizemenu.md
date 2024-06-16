@@ -57,21 +57,29 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - Locate and select the downloaded prefab package.
    - Click `Import` to add the prefab to your project.
 
+<br/>
+
 **2. Add the Prefab to Your World**
 
 1. Drag Hash Studios Resize Menu into your world from the Project window.
 2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
+
+<br/>
 
 **3. Configure the Resize Menu**
 
 1. Select Hash Studios Resize Menu in your Hierarchy.
 2. In the Inspector window, you will see the configuration options for the Resize Menu.
 
+<br/>
+
 **4. Edit Menu Settings**
 
 Within the `Menu Settings`, you can customize whether and how the menu appears when summoned by the player. This includes options like whether the menu follows the player's head. Typically, these settings can be turned on or off based on how you want players to resize in your world.
 - `Teleport to Player` - Enable if the menu should teleport to the player's current location when summoned. (WARNING: Disabling also disables summoning inputs) (default: on)
 - `Adapt Menu Size to Player Size` - Toggle this to have the menu adjust based on the player's avatar height (default: on)
+
+<br/>
 
 **5. Edit Player Settings**
 
@@ -80,6 +88,8 @@ In the `Player Settings`, you can adjust various aspects of the menu related to 
 - `Running Speed Multiplier` - Determines the multiplier for running speed relative to walking speed. A value of 2 means running is twice as fast as walking (default: 2)
 - `Minimum Player Size` - Set the smallest allowable size for a player's avatar in the world. Limit: minimum size must stay at or above 0.1 (recommended: 0.1)
 - `Maximum Player Size` - Set the largest allowable size for a player's avatar in the world. Limit: maximum size must stay at or below 100 (recommended: 100)
+
+<br/>
 
 **6. Edit Input Settings**
 

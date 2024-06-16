@@ -1,6 +1,6 @@
 ---
 title: ParGUI
-sidebar_position: 7
+sidebar_position: 10
 ---
 
 # Installing ParGUI
@@ -53,10 +53,14 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - Locate and select the downloaded prefab package.
    - Click `Import` to add the prefab to your project.
 
+<br/>
+
 **2. Set Up the Spawn Location**
 
 1. Open the `VRCSceneDescriptor` in your world.
 2. Set the spawn location to the area where you want players to spawn.
+
+<br/>
 
 **3. Reference the Camera**
 
@@ -64,6 +68,8 @@ You can learn how to set up your project beforehand at **[our project setup guid
 2. Ensure it is referenced in your `VRCSceneDescriptor` as the camera that your players will use:
    - Select the `VRCSceneDescriptor` GameObject in the Hierarchy window.
    - In the Inspector window, assign the main camera to the `Reference Camera` field.
+
+<br/>
 
 **4. Set Up Post Processing**
 
@@ -74,6 +80,8 @@ You can learn how to set up your project beforehand at **[our project setup guid
 
 For detailed instructions on setting up post processing, refer to the **[Post Processing Guide](/DevelopmentDocumentation/docs/general-concepts/postprocessing)**.
 
+<br/>
+
 **5. Add ParGUI Prefab to Your World**
 
 1. Drag the ParGUI prefab into your world from the Project window.
@@ -81,10 +89,14 @@ For detailed instructions on setting up post processing, refer to the **[Post Pr
 3. Set the respawn location as your spawn transform in the VRC Scene Descriptor from earlier.
 4. Set a main world light as the world's directional light. If you don't want to use a directional light, set it as a directional light that is disabled in the hierarchy (it still needs a reference of some sort to function).
 
+<br/>
+
 **6. Configure Toggles and Lights**
 
 1. Set up colliders you want to be able to toggle with the menu in the `Colliders` array.
 2. Set up lights in the `Lighting` array that you want to be able to toggle.
+
+<br/>
 
 **7. Customize Preset Visual Buttons**
 

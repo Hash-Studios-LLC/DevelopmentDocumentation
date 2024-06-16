@@ -45,6 +45,8 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - Locate and select the downloaded prefab package.
    - Click `Import` to add the prefab to your project.
 
+<br/>
+
 **2. Add the Prefab to Your World**
 
 :::note
@@ -57,10 +59,14 @@ Hash Studios SimuLogo comes in two versions:
 1. Drag Hash Studios SimuLogo into your world from the Project window.
 2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
 
+<br/>
+
 **3. Select Hash Studios SimuLogo**
 
 1. Select Hash Studios SimuLogo in your Hierarchy.
 2. In the Inspector window, you will see the configuration options for Hash Studios SimuLogo.
+
+<br/>
 
 **4. Customize the Logo**
 
@@ -71,6 +77,8 @@ For more detailed information on configuring images to sprites for the prefab, v
 1. Customize the logo you want to be displayed. Ensure it is a sprite as shown in our **[Image to Sprite Conversion Guide](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/)**.
 2. Set the `Time to Display` after the player enters a collider or joins. Recommended: 1-2 seconds.
 3. Set the `Display Time` for how long the logo will display after it appears. Recommended: 5 seconds.
+
+<br/>
 
 **5. Configure the Trigger Collider (if using the collider version)**
 

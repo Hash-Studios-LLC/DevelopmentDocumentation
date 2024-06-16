@@ -45,22 +45,28 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - Locate and select the downloaded prefab package.
    - Click `Import` to add the prefab to your project.
 
+<br/>
+
 **2. Add the Prefab to Your World**
 
 1. Drag Hash Studios Teleporter System into your world from the Project window.
 2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
+
+<br/>
 
 **3. Configure the Teleporter System**
 
 1. Select Hash Studios Teleporter System in your Hierarchy.
 2. In the Inspector window, you will see the configuration options for Hash Studios Teleporter System.
 
+<br/>
+
 **4. Position the Teleporter System**
 
 1. Move the prefab to your desired location in the scene.
 2. Adjust any additional settings as needed.
 
-<br/>
+<br/><br/>
 
 ## How to Use Hash Studios Teleporter System
 
@@ -69,12 +75,16 @@ You can learn how to set up your project beforehand at **[our project setup guid
 1. Interact with the teleporter system in your world to open the menu.
 2. You will see a list of users currently in your world.
 
+<br/>
+
 **2. View Avatar and Teleport to a User**
 
 1. Click on the name of the user you wish to teleport to.
 2. Once clicked, you will be able to view the avatar of the selected user.
 3. Press the "Teleport To" button to instantly move to that user's location.
 4. To deselect, click another name or press the "Deselect" button.
+
+<br/>
 
 **3. Privacy Controls**
 

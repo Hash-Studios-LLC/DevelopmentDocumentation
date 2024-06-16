@@ -48,15 +48,21 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - Locate and select the downloaded prefab package.
    - Click `Import` to add the prefab to your project.
 
+<br/>
+
 **2. Add the Prefab to Your World**
 
 1. Drag `Hash Studios Megaphone Audio` into your world from the Project window.
 2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
 
+<br/>
+
 **3. Select Hash Studios Megaphone Audio**
 
 1. Select `Hash Studios Megaphone Audio` in your Hierarchy.
 2. In the Inspector window, you will see the configuration options for `Hash Studios Megaphone Audio`.
+
+<br/>
 
 **4. Configure Volume Settings**
 
@@ -66,12 +72,16 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - `Speaker Volume`: This volume applies to authorized users holding the megaphone. Set it high to ensure players can hear announcements anywhere on the map (Recommended: 1000000).
    - `Listener Volume`: This volume applies to everyone except the speaker when the megaphone is in use. Set it low to minimize interruptions during announcements (Recommended: 1).
 
+<br/>
+
 **5. Configure Authorization Settings**
 
 1. Open the `Authorization` tab.
 2. Modify settings for user authorization:
    - `Master as Speaker`: Automatically authorizes the instance master as a speaker.
    - `Whitelisted Players as Speaker`: Specifies individuals who are automatically authorized as speakers. If the list is empty, no one will be whitelisted.
+
+<br/>
 
 **6. Customize the Megaphone Model**
 
