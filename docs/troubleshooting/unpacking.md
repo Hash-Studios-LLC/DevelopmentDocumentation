@@ -1,6 +1,6 @@
 ---
 title: Values Not Updating & Errors When Clicking Prefab
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 # Values Not Updating & Errors When Clicking Prefab
