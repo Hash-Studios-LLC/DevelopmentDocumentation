@@ -49,10 +49,16 @@ You can learn how to set up your project beforehand at **[our project setup guid
 1. Drag Hash Studios Mirrors into your world from the Project window.
 2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
 
-**3. Customize the Trigger Box**
+**3. Adjust the Trigger Box**
 
-1. Open the `TriggerBox` child within the prefab.
-2. Adjust the collider's scale and position to fit your desired area.
+:::tip
+For more detailed information on configuring trigger boxes, visit our [Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/).
+:::
+
+1. Find the child object called `TriggerBox`.
+2. Move it around using the `Transform` component or resize it with the `Box Collider` component. Press the `Edit Collider` button to resize.
+
+<br/>
 
 **4. Configure the Mirror Settings**
 
