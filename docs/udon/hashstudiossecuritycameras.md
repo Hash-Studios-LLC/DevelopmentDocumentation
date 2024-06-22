@@ -160,6 +160,64 @@ If you opt to use your own custom mesh, you can easily set and modify its visual
 3. Adjust your custom mesh in the inspector to align with the orange cube.
    - Ensure the custom mesh is positioned to the left of the orange cube, based on the z-axis. This ensures it rotates and functions correctly within the prefab.
 
+<br/>
+
+### Removing Player View (Additional)
+
+:::danger WAIT! PLEASE READ!
+**Note:** This modification is *not required* and should *only* be performed if you specifically need to remove the player view feature. 
+
+It is not recommended unless you are confident in your changes.
+:::
+
+To remove the ability to view players in the camera system, follow these steps:
+
+<br/>
+
+1. Open the Script:
+   - Navigate to `Assets > Hash Studios Security System > Scripts`.
+   - Open `HashStudiosSecuritySystem_Internal.cs` in your preferred code editor.
+
+   <br/>
+
+2. Locate the Methods:
+
+   - Find & replace the InitialPopulateMenuOptions method with the following:
+
+   <br/>
+   ```csharp
+   void InitialPopulateMenuOptions()
+   {
+      listOfCameras = new GameObject[mainScript.SecurityCameras.Length];
+      listOfCameras[0] = cameraListName_ToDuplicate.gameObject;
+      listOfCameras[0].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = mainScript.SecurityCameras[0].cameraName;
+      for (int i = 1; i < mainScript.SecurityCameras.Length; i++)
+      {
+         listOfCameras[i] = Instantiate(cameraListName_ToDuplicate.gameObject, cameraListView_Parent.transform);
+         listOfCameras[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = mainScript.SecurityCameras[i].cameraName;
+      }
+   }
+   ```
+
+   <br/>
+   - Find & replace the UpdateMenuOptions method with the following:
+
+   <br/>
+   ```csharp
+   private void UpdateMenuOptions()
+   {
+      GameObject[] gameObjects = listOfCameras;
+      listOfCameras = new GameObject[mainScript.SecurityCameras.Length];
+      listOfCameras[0] = cameraListName_ToDuplicate.gameObject;
+      listOfCameras[0].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = mainScript.SecurityCameras[0].cameraName;
+      for (int i = 1; i < mainScript.SecurityCameras.Length; i++)
+      {
+         listOfCameras[i] = Instantiate(cameraListName_ToDuplicate.gameObject, cameraListView_Parent.transform);
+         listOfCameras[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = mainScript.SecurityCameras[i].cameraName;
+      }
+   }
+   ```
+
 <br/><br/>
 
 By following these steps, you can successfully install Hash Studios Security Cameras and enhance your VR environment with a robust camera system.
