@@ -41,6 +41,10 @@ A trigger box is a special type of collider that detects when another object ent
 
 ## Adding and Configuring Colliders in Unity
 
+<br/>
+
+![Example GIF](/img/generalconcepts/howtoeditcollider.gif)
+
 ### Adding a Box Collider
 
 1. **Select the Object:**
