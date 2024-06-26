@@ -17,6 +17,12 @@ Tailor everything from the notification's appearance to its behavior, ensuring a
 
 <br/>
 
+<div class="responsive-video">
+  <iframe src="https://www.youtube.com/embed/O7Unqx10lTs" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 ## Features
 
 - Join / Leave Notifications

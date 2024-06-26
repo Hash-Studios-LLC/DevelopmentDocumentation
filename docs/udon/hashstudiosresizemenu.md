@@ -9,7 +9,15 @@ sidebar_position: 10
 **Version:** This guide is for Unity 2022.3.6f1. The steps may be different in future versions of Unity.
 :::
 
-Introducing the Hash Studios Resize Menu—a revolutionary Udon Unity prefab that enhances the UdonSharp experience by empowering users to adjust their avatar size easily! This tool is a game-changer for UdonSharp worlds, allowing players on both VR and PC to seamlessly change their avatar's size. It offers a user-friendly process for size adjustment, giving players the freedom to experiment with their avatar’s scale within the limits set by the world creator.
+Introducing the Hash Studios Resize Menu—a revolutionary Udon Unity prefab that enhances the UdonSharp experience by empowering users to adjust their avatar size easily! 
+
+This tool is a game-changer for UdonSharp worlds, allowing players on both VR and PC to seamlessly change their avatar's size. It offers a user-friendly process for size adjustment, giving players the freedom to experiment with their avatar’s scale within the limits set by the world creator.
+
+<br/>
+
+<div class="responsive-video">
+  <iframe src="https://www.youtube.com/embed/FyIw63syZCo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <br/>
 

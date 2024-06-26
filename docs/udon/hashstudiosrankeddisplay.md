@@ -15,6 +15,12 @@ Hash Studios Ranked Display allows you to designate specific players within the 
 
 <br/>
 
+<div class="responsive-video">
+  <iframe src="https://www.youtube.com/embed/Rvm1jI06w1w" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 ## Features
 
 - Player Whitelist

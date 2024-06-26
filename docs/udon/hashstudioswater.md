@@ -21,6 +21,12 @@ Hash Studios Water is a developer tool that makes it easy for world creators to 
 
 <br/>
 
+<div class="responsive-video">
+  <iframe src="https://www.youtube.com/embed/87vhzI15c48" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 ## Requirements
 
 You can learn how to set up your project beforehand at **[our project setup guide](/DevelopmentDocumentation/docs/general-concepts/settingupudon)**.

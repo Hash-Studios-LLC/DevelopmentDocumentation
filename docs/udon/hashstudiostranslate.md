@@ -23,6 +23,12 @@ Elevate your application with Hash Studios Translate and provide a truly immersi
 
 <br/>
 
+<div class="responsive-video">
+  <iframe src="https://www.youtube.com/embed/MgpKjftnJhw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 ## Features
 
 - Custom Editor Window to Control Translations

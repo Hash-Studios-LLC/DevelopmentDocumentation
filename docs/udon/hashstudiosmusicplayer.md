@@ -19,6 +19,12 @@ This innovative music player offers a seamless integration of audio and visual a
 
 <br/>
 
+<div class="responsive-video">
+  <iframe src="https://www.youtube.com/embed/gHWsjUATRqk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 ## Features
 
 - Dynamic Color Matching

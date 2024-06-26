@@ -17,6 +17,12 @@ Enhance your VR experience with the Hash Studios Avatar Selector! This user-frie
 
 <br/>
 
+<div class="responsive-video">
+  <iframe src="https://www.youtube.com/embed/e0ZrwvpgTHE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 ## Features
 
 - Custom Avatar List

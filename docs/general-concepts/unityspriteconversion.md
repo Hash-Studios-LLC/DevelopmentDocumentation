@@ -44,6 +44,8 @@ For more detailed information on Unity sprites, refer to the [Unity Sprite Docum
 
 ## Step-by-Step Guide: Converting an Image to a Sprite
 
+![Example GIF](/img/generalconcepts/howtoconvertimages.gif)
+
 **1. Importing the Image**
 
 1. Open your Unity project.

@@ -13,6 +13,12 @@ Hash Studios SimuLogo is an UdonSharp Unity Prefab that presents your world logo
 
 <br/>
 
+<div class="responsive-video">
+  <iframe src="https://www.youtube.com/embed/7PemtkyvnVA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 ## Features
 
 - PC and VR Compatible

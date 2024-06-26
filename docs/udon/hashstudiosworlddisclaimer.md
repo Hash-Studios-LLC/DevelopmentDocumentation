@@ -13,6 +13,12 @@ Hash Studios World Disclaimer is a dynamic Unity Udon prefab designed for virtua
 
 <br/>
 
+<div class="responsive-video">
+  <iframe src="https://www.youtube.com/embed/IJUwJ2Yiqp8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 ## Features
 
 - Event Activation

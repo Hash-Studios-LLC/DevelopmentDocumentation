@@ -13,6 +13,14 @@ Introducing Hash Studios Admin Ban Menu—a powerful Udon Unity prefab designed 
 
 Hash Studios Admin Ban Menu grants admins the ability to interact with players based on their role (player, admin, or yourself), with customizable colors for each role: Admins (dark blue), selected players (light cyan), banned players (red), and normal players (grey). Tailor these settings to fit your unique needs.
 
+<br/>
+
+<div class="responsive-video">
+  <iframe src="https://www.youtube.com/embed/HQm-S3oNZWc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 This comprehensive menu offers various functionalities such as:
 - View player avatars and rank status
 - Access a player's point of view

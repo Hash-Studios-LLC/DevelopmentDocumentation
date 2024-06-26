@@ -21,6 +21,12 @@ Upgrade your virtual world easily with Hash Studios Information Board.
 
 <br/>
 
+<div class="responsive-video">
+  <iframe src="https://www.youtube.com/embed/7TkowZghnGE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 ## Features
 
 - Trigger Activation

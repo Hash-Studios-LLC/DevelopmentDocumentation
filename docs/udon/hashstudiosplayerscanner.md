@@ -17,6 +17,12 @@ Hash Studios' Player Scanner is a UdonSharp Unity Prefab tool detecting player p
 
 <br/>
 
+<div class="responsive-video">
+  <iframe src="https://www.youtube.com/embed/e8gYeLCyqqI" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 ## Features
 
 - Detects player presence

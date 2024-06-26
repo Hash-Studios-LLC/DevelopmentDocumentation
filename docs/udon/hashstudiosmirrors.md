@@ -11,6 +11,8 @@ sidebar_position: 10
 
 Enhance your VR environment with Hash Studios Mirrors. This mirror prefab offers customizable settings and unique functionalities to create an immersive scene. Compatible with both Quest and PC, this mirror supports both Local and Global functionality.
 
+![Example GIF](/img/productshowcases/hashstudiosmirrorsshowcase.gif)
+
 <br/>
 
 ## Features
