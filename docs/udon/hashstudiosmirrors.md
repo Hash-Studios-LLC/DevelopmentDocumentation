@@ -46,10 +46,14 @@ You can learn how to set up your project beforehand at **[our project setup guid
    - Locate and select the downloaded prefab package.
    - Click `Import` to add the prefab to your project.
 
+<br/>
+
 **2. Add the Prefab to Your World**
 
 1. Drag Hash Studios Mirrors into your world from the Project window.
 2. Right-click on the prefab in the Hierarchy window and select `Prefab > Unpack Prefab`.
+
+<br/>
 
 **3. Adjust the Trigger Box**
 
@@ -70,6 +74,23 @@ For more detailed information on configuring trigger boxes, visit our [Trigger &
    - If the mirror is local, you can customize additional options:
      - **Is Enabled On Trigger Enter**: This toggle enables the ability for the mirror to appear when a player enters the trigger box (Default: on).
      - **Is Disabled On Trigger Exit**: This toggle disables the mirror when a player exits the trigger box (Default: on).
+
+<br/><br/>
+
+# Fixing Multiple Players Not Being Visible
+
+:::tip
+For more detailed information on configuring reflection layers, visit our [Understanding Unity Layers with Udon](/DevelopmentDocumentation/docs/general-concepts/layers/) documentation.
+:::
+
+If you encounter an issue where multiple players are not visible in the mirror, follow these steps:
+
+1. Select the `Hash Studios Mirrors` prefab in the Hierarchy.
+2. Click on each mirror variant (`High Quality`, `Low Quality`, `Skybox`, `Avatar`).
+3. In the Inspector window, locate the `VRC Mirror Reflection` component.
+4. In the `Reflect Layers` dropdown, make sure to select both `Player` and `Player Local`.
+
+By following these steps, you ensure that the mirror can render multiple players correctly, solving the visibility issue. This setup helps create a more immersive and accurate reflection experience in your VR environment.
 
 <br/>
 
