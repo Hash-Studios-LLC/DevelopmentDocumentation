@@ -25,6 +25,14 @@ For more detailed information on post processing, refer to the [Unity Post Proce
 
 ### Adding a Post Processing Volume (By Yourself)
 
+<br/>
+
+<div class="image">
+   
+   ![Example GIF](/img/generalconcepts/addingpostprocessingvolume.gif)
+
+</div>
+
 1. **Create a Post Processing Volume:**
    - In the Hierarchy window, right-click and select `Create Empty` to create a new GameObject.
    - Rename this GameObject to `PostProcessingVolume`.
@@ -32,6 +40,16 @@ For more detailed information on post processing, refer to the [Unity Post Proce
    - Search for and add the `Post-process Volume` component.
    - In the `Post-process Volume` component, check the `Is Global` checkbox.
    - Click `Add Override` and select the effects you want to apply (e.g., Bloom, Color Grading).
+
+<br/>
+
+<!-- <img src="/img/generalconcepts/addingpostprocessinglayer.gif" alt="gif"/> -->
+
+<div class="image">
+   
+   ![Example GIF](/img/generalconcepts/addingpostprocessinglayer.gif)
+
+</div>
 
 2. **Create a Post Processing Layer:**
    - In the Hierarchy window, select your Main Camera.
@@ -61,6 +79,12 @@ For more detailed information on post processing, refer to the [Unity Post Proce
 
 3. **Add the Post Processing Volume to Your Scene:**
    - Drag the `PostProcessingVolume` GameObject from the prefab directory into your scene.
+
+<div class="image100">
+   
+   ![Example GIF](/img/generalconcepts/settingupcamera.gif)
+
+</div>
 
 4. **Set Up the Camera:**
    - In the Hierarchy window, select your Main Camera.

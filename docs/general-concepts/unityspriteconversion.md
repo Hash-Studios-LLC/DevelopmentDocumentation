@@ -44,7 +44,11 @@ For more detailed information on Unity sprites, refer to the [Unity Sprite Docum
 
 ## Step-by-Step Guide: Converting an Image to a Sprite
 
-![Example GIF](/img/generalconcepts/howtoconvertimages.gif)
+<div class="image">
+   
+   ![Example GIF](/img/generalconcepts/howtoconvertimages.gif)
+
+</div>
 
 **1. Importing the Image**
 

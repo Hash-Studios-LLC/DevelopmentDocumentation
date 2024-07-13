@@ -43,7 +43,11 @@ A trigger box is a special type of collider that detects when another object ent
 
 <br/>
 
-![Example GIF](/img/generalconcepts/howtoeditcollider.gif)
+<div class="image75">
+   
+   ![Example GIF](/img/generalconcepts/howtoeditcollider.gif)
+
+</div>
 
 ### Adding a Box Collider
 

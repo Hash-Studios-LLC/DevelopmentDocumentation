@@ -17,6 +17,12 @@ You might find this information particularly useful when working with some of ou
 
 ## Changing an Object's Mesh
 
+<div class="image100">
+   
+   ![Example GIF](/img/generalconcepts/changingmesh.gif)
+
+</div>
+
 To change an object's mesh:
 
 1. **Select the Object:**
@@ -35,6 +41,12 @@ For more detailed instructions, visit the [Unity Documentation on Meshes](https:
 
 ## Changing an Object's Materials
 
+<div class="image100">
+   
+   ![Example GIF](/img/generalconcepts/changingmaterial.gif)
+
+</div>
+
 To change an object's materials:
 
 1. **Select the Object:**
@@ -52,6 +64,12 @@ For more detailed instructions, visit the [Unity Documentation on Materials](htt
 <br/>
 
 ## Changing an Object's Material Shader
+
+<div class="image100">
+   
+   ![Example GIF](/img/generalconcepts/changingshader.gif)
+
+</div>
 
 To change the shader used by a material:
 
