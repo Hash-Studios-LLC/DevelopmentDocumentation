@@ -133,3 +133,23 @@
   width: 40%;
   height: auto;
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-container .imageBlock {
+  flex: 1 1 30%; /* Adjust the percentage to control the number of images per row */
+  max-width: 30%;
+  padding: 10px;
+  box-sizing: border-box; /* Ensures padding is included in the width calculation */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

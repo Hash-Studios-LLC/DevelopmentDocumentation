@@ -20,6 +20,12 @@ The shader pack includes:
 
 Each shader features customizable properties for waving, movement, and distortion, ensuring your liquids look as realistic or stylized as you desire. Learn more at [our website](https://hashstudiosllc.com/hashstudiosliquidshaders).
 
+<div class="image100">
+   
+   ![Example GIF](/img/productshowcases/liquidshadershowcase.gif)
+
+</div>
+
 <br/>
 
 ## Features
@@ -52,7 +58,48 @@ Each shader features customizable properties for waving, movement, and distortio
 
 ## Requirements
 
+- **Unity Shader Graph**: Ensure you have the Unity Shader Graph package installed.
+
+- **z3y's Shader Graph Package**: Follow the instructions to add z3y's Shader Graph package.
+  - Website: [z3y's Shader Graph](https://github.com/z3y/ShaderGraph)
+  - Repository: `https://z3y.github.io/vpm-package-listing/index.json`
+
 You can learn how to set up your project beforehand at **[our project setup guide](/docs/general-concepts/settingupudon)**.
+
+<br/>
+
+## How to Use Hash Studios Liquid Shaders
+
+<div class="image-container">
+  <div class="imageBlock">
+    ![Example GIF](/img/producteditors/hsls-beachwater.png)
+  </div>
+
+  <div class="imageBlock">
+    ![Example GIF](/img/producteditors/hsls-poolwater.png)
+  </div>
+</div>
+
+<div class="image-container">
+  <div class="imageBlock">
+    ![Example GIF](/img/producteditors/hsls-swampywater.png)
+  </div>
+
+  <div class="imageBlock">
+    ![Example GIF](/img/producteditors/hsls-lava.png)
+  </div>
+
+  <div class="imageBlock">
+    ![Example GIF](/img/producteditors/hsls-moltenlava.png)
+  </div>
+</div>
+
+1. Ensure you have all the requirements installed and set up as per the steps above.
+
+2. Drag the desired shader from the Hash Studios Liquid Shaders package onto the object in your scene. 
+   - Note: It may look flat once applied.
+
+3. Modify the shader properties in the Inspector to achieve the desired visual effect. Adjust settings such as colors, normal maps, wave strength, and more to customize the look.
 
 <br/>
 
