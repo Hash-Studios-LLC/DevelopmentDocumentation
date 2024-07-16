@@ -65,6 +65,22 @@
   height: 50%;
 }
 
+.image25 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 25%;
+}
+
+.image50 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+
 .image75 {
   display: block;
   margin-left: auto;
@@ -76,6 +92,38 @@
 .image100 {
   display: block;
   margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.image25-left {
+  display: block;
+  margin-left: left;
+  margin-right: auto;
+  width: 25%;
+  height: 25%;
+}
+
+.image50-left {
+  display: block;
+  margin-left: left;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+
+.image75-left {
+  display: block;
+  margin-left: left;
+  margin-right: auto;
+  width: 75%;
+  height: 75%;
+}
+
+.image100-left {
+  display: block;
+  margin-left: left;
   margin-right: auto;
   width: 100%;
   height: 100%;
