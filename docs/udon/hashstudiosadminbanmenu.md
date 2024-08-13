@@ -113,6 +113,16 @@ Hash Studios Admin Ban Menu allows you to interact with players based on their r
 
 **3. Configure Hash Studios Admin Ban Menu**
 
+<div class="img-row">
+   
+   ![Example GIF](/img/producteditors/hs_adminbanmenu_player.png)
+
+   ![Example GIF](/img/producteditors/hs_adminbanmenu_general.png)
+
+   ![Example GIF](/img/producteditors/hs_adminbanmenu_customization.png)
+
+</div>
+
 1. Select Hash Studios Admin Ban Menu in your Hierarchy.
 2. In the Inspector window, you will see the configuration options for Hash Studios Admin Ban Menu.
 

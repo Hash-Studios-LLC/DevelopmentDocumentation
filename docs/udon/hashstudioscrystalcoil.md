@@ -58,7 +58,7 @@ You can learn how to set up your project beforehand at **[our project setup guid
 To integrate the prefab seamlessly into your environment, refer to our **[Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/)** for optimizing collision settings and interactions.
 :::
 
-<div class="image35">
+<div class="image35-left">
    
    ![Example GIF](/img/producteditors/hs_crystalcoil_main.png)
 

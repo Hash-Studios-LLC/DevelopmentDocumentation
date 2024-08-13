@@ -113,6 +113,14 @@
   height: 25%;
 }
 
+.image35-left {
+  display: block;
+  margin-left: left;
+  margin-right: auto;
+  width: 35%;
+  height: 35%;
+}
+
 .image50-left {
   display: block;
   margin-left: left;
@@ -160,4 +168,16 @@
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+/* Listing Images in a Horizontal Row */
+.img-row {
+  display: flex;
+  justify-content: space-around; /* This will distribute space around each image */
+  align-items: center; /* This will vertically center the images */
+}
+
+.img-row img {
+  width: 75%; /* Each image will take up 30% of the container's width */
+  height: auto; /* This keeps the image aspect ratio intact */
 }
