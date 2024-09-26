@@ -99,6 +99,19 @@ For more detailed information on configuring images to sprites for the prefab, v
 
 1. Change the `Time Per Poster` to however long you want each poster to display.
 
+<br/>
+
+**6. Add Emission (Optional)**
+
+If you wish to add an emission effect to the prefab:
+
+1. Inside the `PosterAd_Internal.cs` file, locate the `changeMaterial()` function.
+
+2. Add the following line of code to enable the emission texture:
+
+  ```
+  posterScript.posterMaterial.SetTexture("_EmissionMap", posterScript.postersToDisplay[i]);
+  ```
 <br/><br/>
 
 By following these steps, you can successfully install Hash Studios AdFlux and create a dynamic poster display in your virtual world.
