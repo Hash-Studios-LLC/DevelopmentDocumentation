@@ -19,6 +19,10 @@ The **Hash Studios Swimming System** is a powerful and modular swimming system d
 
 <br/>
 
+![Example GIF](/img/productshowcases/HashStudiosSwimmingSystem.gif)
+
+<br/>
+
 ## Features
 
 - **Head & Feet Detection:** Automatically switches between swimming and ground-based movement based on player position.
@@ -44,6 +48,8 @@ Ensure your Unity project is properly set up by following our **[project setup g
 
 ## How the Swimming System Works
 
+![Example GIF](/img/producteditors/HSSwimmingSys-BOOTH-1.2.png)
+
 The system uses **raycasts** to detect whether the player’s head or feet are in water. When the feet enter a water body, swimming mode is activated. If the player's head is submerged, underwater audio and visual effects trigger. 
 
 If either the head or feet leave the water, the system resets to ground movement settings and deactivates underwater effects. These seamless transitions allow for a smooth experience between swimming and walking.
@@ -57,6 +63,15 @@ If either the head or feet leave the water, the system resets to ground movement
 ## Configuration Options
 
 The **`U_HashStudiosSwimmingSystem_Main`** script offers several variables to customize your swimming experience:
+
+<div class="image35-left">
+   
+   ![Example GIF](/img/producteditors/HSSwimmingSys-BOOTH-4.png)
+   ![Example GIF](/img/producteditors/HSSwimmingSys-BOOTH-5.png)
+   ![Example GIF](/img/producteditors/HSSwimmingSys-BOOTH-6.png)
+   ![Example GIF](/img/producteditors/HSSwimmingSys-BOOTH-7.png)
+
+</div>
 
 | **Parameter**               | **Description**                                              |
 |-----------------------------|--------------------------------------------------------------|
