@@ -86,6 +86,9 @@ Experience Hash Studios Alcohol Drinks for yourself here: **[VRChat Showcase Wor
 
 ## Requirements
 
+- **Unity Shader Graph**: Required for this prefab.
+- **z3y Shader Graph Fork**: This prefab uses the z3y Shader Graph package for liquid shaders. Follow the steps outlined in our **[Shader Graph Setup Guide](/docs/general-concepts/settingupshadergraph)** to install and configure it.
+
 You can learn how to set up your project beforehand at **[our project setup guide](/docs/general-concepts/settingupudon)**.
 
 <br/>
@@ -96,7 +99,7 @@ You can learn how to set up your project beforehand at **[our project setup guid
 
 1. Download Hash Studios Alcohol Drinks from our **[website](https://hashstudiosllc.com/hashstudiosalcoholdrinks)**.
 2. Import the prefab into your Unity project:
-   - In Unity, go to `Assets` > `Import Package` > `Custom Package...`
+   - In Unity, go to `Assets > Import Package > Custom Package...`
    - Locate and select the downloaded prefab package.
    - Click `Import` to add the prefab to your project.
 
@@ -125,33 +128,25 @@ The following table lists the configurable fields for Hash Studios Alcohol Drink
 
 | **Category**       | **Field Name**                 | **Description**                                                                                                                                 | **Default Value**        |
 |---------------------|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
-| **General Settings** | Drunk Duration               | Time a player stays drunk before starting to recover.                                                                                          | `30.0 seconds`          |
-|                     | Drunkenness Build-Up Time    | Time it takes to reach a blackout after exceeding alcohol tolerance.                                                                           | `10.0 seconds`          |
+| **General Settings** | Drunk Duration               | Time a player stays drunk before starting to recover.                                                                                          | 30.0 seconds          |
+|                     | Drunkenness Build-Up Time    | Time it takes to reach a blackout after exceeding alcohol tolerance.                                                                           | 10.0 seconds          |
 |                     | Temporary Respawn Location   | Quiet location where players are temporarily teleported during a blackout.                                                                     | -                        |
 |                     | Player Respawn Point         | Final location where players are returned after recovery.                                                                                      | -                        |
 |                     | Drink Sound Effect           | Audio clip that plays when a player consumes a drink.                                                                                          | -                        |
-| **Blackout Settings**| Fade Effect Duration         | Time for the screen to fade to black during a blackout.                                                                                        | `15.0 seconds`          |
-|                     | Respawn Delay               | Time players remain fainted before respawning.                                                                                                 | `5.0 seconds`           |
-|                     | Text Fade Time              | Duration for on-screen text to disappear.                                                                                                      | `3.0 seconds`           |
-|                     | Canvas Display Distance     | Distance of UI elements from the player.                                                                                                       | `2.5`                   |
-| **Customization Settings** | Maximum Wave Frequency    | Maximum frequency of the wavy screen effect at peak drunkenness.                                                                               | `3.0 Hz`                |
-|                     | Maximum Wave Amplitude      | Intensity of the wavy effect at peak drunkenness.                                                                                              | `0.07`                  |
-|                     | Maximum Wave Speed          | Speed of the wavy effect at peak drunkenness.                                                                                                  | `0.2`                   |
-|                     | Maximum Blur Strength       | Intensity of blur effect at peak intoxication.                                                                                                 | `0.03`                  |
-|                     | Maximum Chromatic Aberration | Intensity of chromatic aberration at peak drunkenness.                                                                                         | `0.1`                   |
-|                     | Alcohol Tolerance Modifier  | Multiplier adjusting alcohol tolerance based on character size.                                                                                | `10`                    |
-|                     | Audio Effect Modifier       | Multiplier adjusting sound effects based on drunkenness level.                                                                                 | `1.0`                   |
+| **Blackout Settings**| Fade Effect Duration         | Time for the screen to fade to black during a blackout.                                                                                        | 15.0 seconds          |
+|                     | Respawn Delay               | Time players remain fainted before respawning.                                                                                                 | 5.0 seconds           |
+|                     | Text Fade Time              | Duration for on-screen text to disappear.                                                                                                      | 3.0 seconds           |
+|                     | Canvas Display Distance     | Distance of UI elements from the player.                                                                                                       | 2.5                   |
+| **Customization Settings** | Maximum Wave Frequency    | Maximum frequency of the wavy screen effect at peak drunkenness.                                                                               | 3.0 Hz                |
+|                     | Maximum Wave Amplitude      | Intensity of the wavy effect at peak drunkenness.                                                                                              | 0.07                  |
+|                     | Maximum Wave Speed          | Speed of the wavy effect at peak drunkenness.                                                                                                  | 0.2                   |
+|                     | Maximum Blur Strength       | Intensity of blur effect at peak intoxication.                                                                                                 | 0.03                  |
+|                     | Maximum Chromatic Aberration | Intensity of chromatic aberration at peak drunkenness.                                                                                         | 0.1                   |
+|                     | Alcohol Tolerance Modifier  | Multiplier adjusting alcohol tolerance based on character size.                                                                                | 10                    |
+|                     | Audio Effect Modifier       | Multiplier adjusting sound effects based on drunkenness level.                                                                                 | 1.0                   |
 | **Advanced Settings**| Drink Spawn Location         | Position where drinks appear when created.                                                                                                     | -                        |
 |                     | Sound Player               | Location where drink-related sounds are played (e.g., pouring, drinking).                                                                      | -                        |
 |                     | Drink Mixer Script          | Custom script controlling drink mixing logic.                                                                                                  | -                        |
-
-<br/>
-
-1. Select Hash Studios Alcohol Drinks in your Hierarchy.
-2. In the Inspector window, you will find the configuration options:
-   - Adjust drunkenness settings such as duration and visual effects.
-   - Customize blackout recovery locations and timings.
-   - Set ingredient requirements and drink recipes.
 
 <br/>
 

@@ -5,59 +5,142 @@ sidebar_position: 1
 
 # Installing Shader Graph for Unity
 
-Some of our prefabs may require Shader Graph to use them since it makes our development easier and allows you as a creator to edit them more easily. This guide will walk you through the process of installing Shader Graph in Unity and how to use it with our prefabs.
+Some of our prefabs require Shader Graph and **z3y’s Shader Graph fork** for advanced visual effects like liquid shaders. Shader Graph allows you to easily edit and customize shaders visually, while z3y’s fork ensures compatibility with VRChat's rendering pipeline.
+
+This guide will walk you through the process of installing both Shader Graph and z3y’s Shader Graph package.
 
 :::warning
-
-**Important:** This guide is for Unity 2022.3.6f1. The steps may be different in future versions of Unity.
-
+**Important:** This guide is for Unity 2022.3.6f1. The steps may differ in future versions of Unity.
 :::
 
 <br/>
 
 ## What is Shader Graph?
 
-Shader Graph is a tool in Unity that allows you to build shaders visually. Instead of writing code, you create and connect nodes in a graph network, making it easier to understand and create complex shaders. Shader Graph provides a more intuitive way to work with shaders and can significantly speed up the development process.
+Shader Graph is a Unity tool that enables the creation of shaders using a visual interface instead of code. It’s particularly useful for creating complex visual effects like liquid shaders, and it allows creators to make adjustments without deep programming knowledge.
 
-For more detailed information on Shader Graph, refer to the [Unity Shader Graph Documentation](https://docs.unity3d.com/Manual/com.unity.shadergraph.html).
-
-<br/>
-
-## Steps to Install Shader Graph
-
-**1. Open Your Unity Project**
-
-1. Open your Unity project in Unity 2022.3.6f1 or higher.
-
-**2. Access the Package Manager**
-
-1. In Unity, go to `Window` > `Package Manager` to open the Package Manager.
-
-**3. Install Shader Graph**
-
-1. In the Package Manager window, ensure that `Unity Registry` is selected in the `Packages` drop-down menu.
-2. Search for `Shader Graph`.
-3. Click on `Shader Graph` in the list.
-4. Click the `Install` button in the lower right corner of the Package Manager window.
-
-**4. Import Our Prefab**
-
-1. Download the prefab from our store.
-2. Import the prefab into your Unity project:
-   - In Unity, go to `Assets` > `Import Package` > `Custom Package...`
-   - Locate and select the downloaded prefab package.
-   - Click `Import` to add the prefab to your project.
-
-**5. Edit the Shader Graph**
-
-1. To edit the shader, locate the Shader Graph file in the prefab directory:
-   - In the Project window, navigate to the directory where the prefab was imported.
-   - Find the Shader Graph file, which will have a `.shadergraph` extension.
-2. Double-click on the Shader Graph file to open it in the Shader Graph Editor.
-3. Make your desired edits in the Shader Graph Editor.
+For more information, see the **[Unity Shader Graph Documentation](https://docs.unity3d.com/Manual/com.unity.shadergraph.html)**.
 
 <br/>
 
-By following these steps, you can install Shader Graph in Unity, import our prefabs, and edit the shaders to customize them for your needs.
+## Requirements
 
-For more detailed information on using Shader Graph, refer to the [Unity Shader Graph Documentation](https://docs.unity3d.com/Manual/com.unity.shadergraph.html).
+Before starting, ensure you have the following:
+
+- **Unity Shader Graph** installed via the Unity Package Manager.
+- **z3y’s Shader Graph Fork** for VRChat compatibility.
+- A Unity project set up with the proper rendering pipeline. Currently VRChat supports `Default Render Pipeline`
+
+<br/>
+
+## Installation Steps
+
+### 1. Install Shader Graph
+
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+
+  <div class="image50-left">
+    ![Shader Graph in Package Manager](/img/generalconcepts/shadergraph.png)
+  </div>
+
+</div>
+
+1. Open Unity and navigate to **Window > Package Manager**.
+2. In the Package Manager, ensure **Unity Registry** is selected in the dropdown menu.
+3. Search for **Shader Graph**.
+4. Select **Shader Graph** from the list and click **Install**.
+
+<br/>
+
+### 2. Add z3y’s Shader Graph Repository
+
+To use advanced liquid shaders, you’ll need to add z3y’s Shader Graph package.
+
+<div class="image50-left">
+  ![Adding z3y's repository](/img/generalconcepts/addingrepository.png)
+</div>
+
+1. Open **VRCCreatorCompanion**.
+2. Go to **Settings > Packages > Add Repository**.
+3. Enter the repository URL: **https://z3y.github.io/vpm-package-listing/index.json**.
+4. Click **Save**.
+
+<br/>
+
+### 3. Install z3y’s Shader Graph Fork
+
+<div class="image50-left">
+  ![Installing Shader Graph Fork](/img/generalconcepts/installingrepository.png)
+</div>
+
+1. Return to the VRCCreatorCompanion main menu and click **Manage Project** for your active Unity project.
+2. Search for **Shader Graph Target (z3y)** in the Package Manager.
+3. Select the latest version and click **Install**.
+
+<br/>
+
+### 4. Configure Shaders for z3y Compatibility
+
+For existing shaders, follow these steps to ensure compatibility with z3y’s fork:
+
+1. Open the **Shader Graph** file you want to update.
+2. In the Shader Graph Editor, go to the **Inspector** panel.
+3. Add a new target by selecting **Built-In (z3y)**.
+4. Save your Shader Graph file to apply the changes.
+
+<br/>
+
+## Fixing Older Shaders
+
+If you’re using an older version of **Hash Studios Liquid Shaders** or any incompatible shaders:
+
+1. Open the Shader Graph file for the affected shader.
+2. In the **Inspector**, ensure the target is set to **Built-In**.
+3. Add an additional target by selecting **Built-In (z3y)**.
+4. Save the shader and test in Unity.
+
+<div class="image50">
+  ![Broken Shader Fix](/img/productshowcases/brokenshader.gif)
+</div>
+
+<br/>
+
+## Creating a New Shader with z3y’s Shader Graph
+
+If you want to create a new shader for your project:
+
+1. Open Unity and go to **Assets > Create > Shader > PBR Graph**.
+2. In the Shader Graph Inspector, select **Built-In (z3y)** as the target.
+3. Design your shader using nodes in the Shader Graph Editor.
+4. Save the shader and apply it to your materials.
+
+<br/>
+
+## Using z3y’s Shader Graph Fork Outside VRChat (Optional)
+
+If you wish to use z3y’s Shader Graph fork in non-VRChat projects:
+
+1. Visit the **[z3y GitHub repository](https://github.com/z3y/ShaderGraph)**.
+2. Download the Unity package from the **Releases** section.
+3. Import the package into your Unity project.
+4. Follow the standard Shader Graph installation and configuration steps.
+
+<br/>
+
+## Troubleshooting
+
+### Shader Graph Not Found
+- Ensure you’re using Unity 2022.3.6f1 or higher.
+- Verify that the **Unity Registry** is selected in the Package Manager.
+
+### z3y Repository Errors
+- Double-check the repository URL: **https://z3y.github.io/vpm-package-listing/index.json**.
+- Ensure you’re using the latest version of VRCCreatorCompanion.
+
+### Shader Effects Not Working
+- Confirm that the shader target is set to **Built-In (z3y)**.
+- Rebuild and reimport the shader file in Unity.
+
+<br/>
+
+By following this guide, you can install and configure Shader Graph and z3y’s Shader Graph fork for advanced shader functionality in your Unity project. For more details, visit the **[z3y Shader Graph GitHub](https://github.com/z3y/ShaderGraph)** or the **[Unity Shader Graph Documentation](https://docs.unity3d.com/Manual/com.unity.shadergraph.html)**.
