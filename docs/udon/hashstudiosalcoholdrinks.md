@@ -87,7 +87,7 @@ Experience Hash Studios Alcohol Drinks for yourself here: **[VRChat Showcase Wor
 ## Requirements
 
 - **Unity Shader Graph**: Required for this prefab.
-- **z3y Shader Graph Fork**: This prefab uses the z3y Shader Graph package for some of the shaders. Follow the steps outlined in our **[Shader Graph Setup Guide](/docs/general-concepts/settingupshadergraph)** to install and configure it.
+- **z3y Shader Graph Fork**: This prefab uses the z3y Shader Graph package for some of the shaders. Follow the steps outlined in our **[Shader Graph Setup Guide](/docs/shaders/settingupshadergraph)** to install and configure it.
 
 You can learn how to set up your project beforehand at **[our project setup guide](/docs/general-concepts/settingupudon)**.
 
