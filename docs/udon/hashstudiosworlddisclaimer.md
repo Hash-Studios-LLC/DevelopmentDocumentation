@@ -72,7 +72,7 @@ You can learn how to set up your project beforehand at **[our project setup guid
 **4. Configure World Information**
 
 :::tip
-For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/DevelopmentDocumentation/docs/general-concepts/postprocessing/).
+For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/docs/general-concepts/postprocessing/).
 :::
 
 Inside the `World Information` section, you can set information such as:
