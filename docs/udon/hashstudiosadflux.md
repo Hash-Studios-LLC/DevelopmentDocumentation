@@ -72,7 +72,7 @@ You can learn how to set up your project beforehand at **[our project setup guid
 **3. Set Up Posters and URLs**
 
 :::tip
-For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/).
+For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/docs/general-concepts/unityspriteconversion/).
 :::
 
 1. Under `Posters to Display`, put the posters you want to display. Please look at the **[Changing Images to Sprites](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/)** section of the documentation for more information if you can't add your posters.

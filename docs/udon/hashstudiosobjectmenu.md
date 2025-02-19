@@ -102,10 +102,10 @@ Now only English text will display on the menu! (Note: This doesn't hide the Jap
 - `Name (English)`: The text that will appear for the object (in English).
 - `Name (Japanese)`: The text that will appear for the object (in Japanese).
 - `Object to Enable`: The object in your Unity hierarchy that will be enabled or disabled when the object is selected.
-- `Image to Display`: The image that will display when an object is shown (please check our guide on [changing images to sprites](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/)).
+- `Image to Display`: The image that will display when an object is shown (please check our guide on [changing images to sprites](/docs/general-concepts/unityspriteconversion/)).
    
    :::tip
-   For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/).
+   For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/docs/general-concepts/unityspriteconversion/).
    :::
 
 `Remove`: Removes the current object you are editing.

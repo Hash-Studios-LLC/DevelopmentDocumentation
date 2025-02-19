@@ -81,7 +81,7 @@ In the `Music Playlist` section, you can view all the songs you wish to display 
    - `Image to Display`: The image you want to display for the song when it's playing (looks like an area to put the album cover) (requires the image to be a sprite).
    
       :::tip
-      For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/).
+      For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/docs/general-concepts/unityspriteconversion/).
       :::
 
    - `Audio Clip (Song)`: The song to play when the song appears.

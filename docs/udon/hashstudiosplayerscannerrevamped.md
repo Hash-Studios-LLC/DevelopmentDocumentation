@@ -76,7 +76,7 @@ In the `General Settings` section, you can configure the following:
 - **Show Collider Visual**: This button allows you to edit the collider settings such as its scale within our inspector so you can change how big the player detection size is. For a guide on how to edit colliders, please view it [here](/docs/general-concepts/triggerbox/).
 
    :::tip
-   For more detailed information on configuring trigger boxes, visit our [Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/).
+   For more detailed information on configuring trigger boxes, visit our [Trigger & Box Collider Guide](/docs/general-concepts/triggerbox/).
    :::
 
 <br/>

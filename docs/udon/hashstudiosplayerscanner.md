@@ -41,7 +41,7 @@ Experience Hash Studios Player Scanner for yourself here: **[VRChat Showcase Wor
 
 ## Requirements
 
-You can learn how to set up your project beforehand at **[our project setup guide](/DevelopmentDocumentation/docs/general-concepts/settingupudon)**.
+You can learn how to set up your project beforehand at **[our project setup guide](/docs/general-concepts/settingupudon)**.
 
 <br/>
 
@@ -74,7 +74,7 @@ You can learn how to set up your project beforehand at **[our project setup guid
 **4. Edit Settings**
 
 :::tip
-For more detailed information on configuring trigger boxes, visit our [Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/).
+For more detailed information on configuring trigger boxes, visit our [Trigger & Box Collider Guide](/docs/general-concepts/triggerbox/).
 :::
 
    - Change `Name of Area` to the title you want to give for the area you want to display on the menu.

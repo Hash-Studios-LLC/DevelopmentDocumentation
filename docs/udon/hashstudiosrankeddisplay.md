@@ -88,7 +88,7 @@ In the `Player Whitelist` section, you can determine which players are included 
 **6. Edit the Ranked Object Model**
 
 :::tip
-For more detailed information on configuring meshes & materials, visit our [Changing Object Meshes and Materials Guide](/DevelopmentDocumentation/docs/general-concepts/objectmeshesandmaterials/).
+For more detailed information on configuring meshes & materials, visit our [Changing Object Meshes and Materials Guide](/docs/general-concepts/objectmeshesandmaterials/).
 :::
 
 In the `Ranked Object Model` section, you can modify various aspects of the model, including its scale, mesh, materials, shaders, and more. For more help on changing the mesh and materials, refer to our separate guide on it.

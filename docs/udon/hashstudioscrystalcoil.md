@@ -55,7 +55,7 @@ You can learn how to set up your project beforehand at **[our project setup guid
 **3. Configure Hash Studios Crystal Coil**
 
 :::tip
-To integrate the prefab seamlessly into your environment, refer to our **[Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/)** for optimizing collision settings and interactions.
+To integrate the prefab seamlessly into your environment, refer to our **[Trigger & Box Collider Guide](/docs/general-concepts/triggerbox/)** for optimizing collision settings and interactions.
 :::
 
 <div class="image35-left">

@@ -80,7 +80,7 @@ You can learn how to set up your project beforehand at **[our project setup guid
 **4. Adjust the Trigger Box**
 
 :::tip
-For more detailed information on configuring trigger boxes, visit our [Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/).
+For more detailed information on configuring trigger boxes, visit our [Trigger & Box Collider Guide](/docs/general-concepts/triggerbox/).
 :::
 
 1. Find the child object called `TriggerBox`.

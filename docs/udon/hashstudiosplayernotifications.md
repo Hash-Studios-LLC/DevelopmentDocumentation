@@ -98,7 +98,7 @@ In the `General Settings` menu, you can modify the general settings of the notif
 
 If you select one of our presets, you will have the following options:
 :::tip
-For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/).
+For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/docs/general-concepts/unityspriteconversion/).
 :::
 - `Particle Texture` - This is the texture that will be displayed on this particle effect.
 - `Texture Color` - This is the color of the texture that will be used in the particle effect.

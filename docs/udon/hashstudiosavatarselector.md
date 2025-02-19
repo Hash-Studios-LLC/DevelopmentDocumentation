@@ -40,7 +40,7 @@ Experience Hash Studios Avatar Selector for yourself here: **[VRChat Showcase Wo
 
 ## Requirements
 
-You can learn how to set up your project beforehand at **[our project setup guide](/DevelopmentDocumentation/docs/general-concepts/settingupudon)**.
+You can learn how to set up your project beforehand at **[our project setup guide](/docs/general-concepts/settingupudon)**.
 
 <br/>
 
@@ -77,7 +77,7 @@ Please ensure that no fields are left blank or empty.
 :::
 
 :::tip
-For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/).
+For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/docs/general-concepts/unityspriteconversion/).
 :::
 
 - The `Helps & Tips` section of the prefab editor window explains the components that make up an avatar and demonstrates how they're showcased in our prefab.
@@ -87,7 +87,7 @@ For more detailed information on configuring images to sprites for the prefab, v
 - **name** - The name that shows on the list.
 - **description** - The description that appears when you click on the avatar name in the list of the UI.
 - **blueprint ID** - The unique identifier for each avatar.
-- **image** - The thumbnail for the avatar. For help on switching your image to a sprite, refer to our guide [Image to Sprite Conversion](/DevelopmentDocumentation/docs/general-concepts/postprocessing/).
+- **image** - The thumbnail for the avatar. For help on switching your image to a sprite, refer to our guide [Image to Sprite Conversion](/docs/general-concepts/postprocessing/).
 
 Simply press `Add` or `Remove` buttons to edit the list in top-to-bottom order.
 

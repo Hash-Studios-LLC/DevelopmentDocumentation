@@ -45,7 +45,7 @@ Experience Hash Studios Portal Picker for yourself here: **[VRChat Showcase Worl
 
 ## Requirements
 
-You can learn how to set up your project beforehand at **[our project setup guide](/DevelopmentDocumentation/docs/general-concepts/settingupudon)**.
+You can learn how to set up your project beforehand at **[our project setup guide](/docs/general-concepts/settingupudon)**.
 
 <br/>
 
@@ -102,7 +102,7 @@ All these details should be placed at index 0 in their respective arrays.
 1. Set your values in the `portal ID` array, `portal name` array, `portal description` array, and `portal images` array.
 
 :::tip
-For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/DevelopmentDocumentation/docs/general-concepts/unityspriteconversion/).
+For more detailed information on configuring images to sprites for the prefab, visit our [Adding Images and Creating Sprites Guide](/docs/general-concepts/unityspriteconversion/).
 :::
 
 2. To add images to the `portal images` array, refer to our guide on **[Image to Sprite Conversion](/DevelopmentDocumentation/docs/general-concepts/settingupudon)** to convert your images to sprites so you can add them to the prefab.
