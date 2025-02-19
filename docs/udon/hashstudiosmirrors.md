@@ -80,7 +80,7 @@ For more detailed information on configuring trigger boxes, visit our [Trigger &
 # Fixing Multiple Players Not Being Visible
 
 :::tip
-For more detailed information on configuring reflection layers, visit our [Understanding Unity Layers with Udon](/DevelopmentDocumentation/docs/general-concepts/layers/) documentation.
+For more detailed information on configuring reflection layers, visit our [Understanding Unity Layers with Udon](/docs/general-concepts/layers/) documentation.
 :::
 
 If you encounter an issue where multiple players are not visible in the mirror, follow these steps:

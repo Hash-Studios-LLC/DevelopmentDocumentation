@@ -156,7 +156,7 @@ Hash Studios Security Cameras provide several predefined camera meshes for diffe
 ### Using Custom Meshes
 
 :::tip
-For more detailed information on configuring meshes & materials, visit our [Changing Object Meshes and Materials Guide](/DevelopmentDocumentation/docs/general-concepts/objectmeshesandmaterials/).
+For more detailed information on configuring meshes & materials, visit our [Changing Object Meshes and Materials Guide](/docs/general-concepts/objectmeshesandmaterials/).
 :::
 
 If you opt to use your own custom mesh, you can easily set and modify its visuals directly within the inspector.

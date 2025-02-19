@@ -51,7 +51,7 @@ Experience the Hash Studios Resize Menu for yourself here: **[VRChat Showcase Wo
 
 ## Requirements
 
-You can learn how to set up your project beforehand at **[our project setup guide](/DevelopmentDocumentation/docs/general-concepts/settingupudon)**.
+You can learn how to set up your project beforehand at **[our project setup guide](/docs/general-concepts/settingupudon)**.
 
 <br/>
 
