@@ -52,7 +52,7 @@ Experience Hash Studios Translate for yourself here: **[VRChat Showcase World](h
 
 ## Requirements
 
-You can learn how to set up your project beforehand at **[our project setup guide](/DevelopmentDocumentation/docs/general-concepts/settingupudon)**.
+You can learn how to set up your project beforehand at **[our project setup guide](/docs/general-concepts/settingupudon)**.
 
 <br/>
 

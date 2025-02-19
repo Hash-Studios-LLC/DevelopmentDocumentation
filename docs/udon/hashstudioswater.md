@@ -29,7 +29,7 @@ Hash Studios Water is a developer tool that makes it easy for world creators to 
 
 ## Requirements
 
-You can learn how to set up your project beforehand at **[our project setup guide](/DevelopmentDocumentation/docs/general-concepts/settingupudon)**.
+You can learn how to set up your project beforehand at **[our project setup guide](/docs/general-concepts/settingupudon)**.
 
 <br/>
 
@@ -51,7 +51,7 @@ You can learn how to set up your project beforehand at **[our project setup guid
 **2. Set Up Water Zones**
 
 :::tip
-For more detailed information on configuring Trigger Boxes, visit our [Trigger & Box Collider Guide](/DevelopmentDocumentation/docs/general-concepts/triggerbox/).
+For more detailed information on configuring Trigger Boxes, visit our [Trigger & Box Collider Guide](/docs/general-concepts/triggerbox/).
 :::
 
 1. Find a collider you want to use as a water zone and make it a trigger collider:
@@ -69,7 +69,7 @@ For more detailed information on configuring Trigger Boxes, visit our [Trigger &
 **4. Set Up Post Processing**
 
 :::tip
-For more detailed information on configuring Post Processing, visit our [Post Processing Guide](/DevelopmentDocumentation/docs/general-concepts/postprocessing/).
+For more detailed information on configuring Post Processing, visit our [Post Processing Guide](/docs/general-concepts/postprocessing/).
 :::
 
 1. Set up a `post processing layer` component on the main camera and set it to default.
