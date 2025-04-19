@@ -52,12 +52,16 @@ Before starting, ensure you have the following:
 
 <br/>
 
-### 2. Add z3y’s Shader Graph Repository
+### 2. Add z3y’s Shader (Shader Graph VRC) Graph Repository
 
-To use advanced liquid shaders, you’ll need to add z3y’s Shader Graph package.
+To use advanced liquid shaders, you’ll need to add z3y’s Shader Graph (also known as Shader Graph VRC) package.
 
 <div class="image50-left">
   ![Adding z3y's repository](/img/generalconcepts/addingrepository.png)
+</div>
+
+<div class="image50-left">
+  ![Installing Shader Graph Fork](/img/generalconcepts/installingrepository.png)
 </div>
 
 1. Open **VRCCreatorCompanion**.
@@ -70,11 +74,11 @@ To use advanced liquid shaders, you’ll need to add z3y’s Shader Graph packag
 ### 3. Install z3y’s Shader Graph Fork
 
 <div class="image50-left">
-  ![Installing Shader Graph Fork](/img/generalconcepts/installingrepository.png)
+  ![Installing Shader Graph Fork](/img/generalconcepts/installingshadergraphvrc.png)
 </div>
 
 1. Return to the VRCCreatorCompanion main menu and click **Manage Project** for your active Unity project.
-2. Search for **Shader Graph Target (z3y)** in the Package Manager.
+2. Search for **Shader Graph Target (z3y)** (also known as **Shader Graph VRC**) in the Package Manager.
 3. Select the latest version and click **Install**.
 
 <br/>
@@ -85,7 +89,7 @@ For existing shaders, follow these steps to ensure compatibility with z3y’s fo
 
 1. Open the **Shader Graph** file you want to update.
 2. In the Shader Graph Editor, go to the **Inspector** panel.
-3. Add a new target by selecting **Built-In (z3y)**.
+3. Add a new target by selecting **Built-In (z3y)** ( also known as **Built-In (VRC Shader)** ).
 4. Save your Shader Graph file to apply the changes.
 
 <br/>
@@ -96,7 +100,7 @@ If you’re using an older version of **Hash Studios Liquid Shaders** or any inc
 
 1. Open the Shader Graph file for the affected shader.
 2. In the **Inspector**, ensure the target is set to **Built-In**.
-3. Add an additional target by selecting **Built-In (z3y)**.
+3. Add an additional target by selecting **Built-In (z3y)** (or **Built-In (VRC Shader)** ).
 4. Save the shader and test in Unity.
 
 <div class="image50">
@@ -110,7 +114,7 @@ If you’re using an older version of **Hash Studios Liquid Shaders** or any inc
 If you want to create a new shader for your project:
 
 1. Open Unity and go to **Assets > Create > Shader > PBR Graph**.
-2. In the Shader Graph Inspector, select **Built-In (z3y)** as the target.
+2. In the Shader Graph Inspector, select **Built-In (z3y)** (also known as **Built-In (VRC Shader)** ) as the target.
 3. Design your shader using nodes in the Shader Graph Editor.
 4. Save the shader and apply it to your materials.
 
